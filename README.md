@@ -27,3 +27,9 @@
 [OzProblems – Chess Problems - Solving and Composing Events](https://www.ozproblems.com/archives/events)  
 [2008 Australian Junior Chess Championships](https://www.nswjcl.org.au/AustralianJunior/2008/standings.htm)  
 [AJC Problem Solving Competition](https://www.nswjcl.org.au/AustralianJunior/2019/ProblemSolving.htm)  
+
+## Chess Problem Databases
+[Yet another chess problem database](https://www.yacpdb.org/#static/home)  
+[30,000 Chess Puzzles](https://wtharvey.com/)  
+[edusadier - the art of direct mate in two moves](https://sites.google.com/site/edusadier/theartofdirectmateintwomoves)  
+[lichess.org open database](https://database.lichess.org/#puzzles)  
