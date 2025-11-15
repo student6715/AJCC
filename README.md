@@ -22,6 +22,8 @@
 [AJCC 2019 Problem Solving Answer](/ProblemSolving/AJCC_2019_ProblemSolving_Answer.pdf)  
 [AJCC 2023 Problem Solving U12](/ProblemSolving/AJCC_2023_ProblemSolving_U12.pdf)  
 [AJCC 2023 Problem Solving U18](/ProblemSolving/AJCC_2023_ProblemSolving_U18.pdf)  
+[AJCC 2024 Problem Solving U12](/ProblemSolving/AJCC_2024_ProblemSolving_U12_Scan.pdf) (Scan from T's)  
+[AJCC 2024 Problem Solving U18](/ProblemSolving/AJCC_2024_ProblemSolving_U18_Scan.pdf) (Scan from M's)  
 
 ## Sources
 [OzProblems – Chess Problems - Solving and Composing Events](https://www.ozproblems.com/archives/events)  
@@ -33,3 +35,5 @@
 [30,000 Chess Puzzles](https://wtharvey.com/)  
 [edusadier - the art of direct mate in two moves](https://sites.google.com/site/edusadier/theartofdirectmateintwomoves)  
 [lichess.org open database](https://database.lichess.org/#puzzles)  
+[HHdbVI – Endgame Study Database](https://www.hhdbvi.nl/)  
+[OzProblems – Chess Problems](https://www.ozproblems.com/home)  
