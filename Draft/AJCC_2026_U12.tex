@@ -1,15 +1,15 @@
-\documentclass[14pt, a4paper]{article}
+\documentclass[14pt]{article}
 \usepackage[top=30truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
 \usepackage{xskak}
 \usepackage{fancyhdr}
+\setlength\parindent{0pt}
 
 \begin{document}
 
 \begin{titlepage}
 \thispagestyle{fancy}
-\lhead{\Large ADMIN ONLY Time submitted: \hskip0em\vtop{\vskip.05cm\hsize=1.2in \hrulefill}%
- ~~}
-\rhead{\Large Total score: \hskip0em\vtop{\vskip.05cm\hsize=1.2in \hrulefill}/100}
+
+\lhead{\Large ADMIN ONLY Time submitted: \underline{\hspace{3cm}} Total score: \underline{\hspace{3cm}}/100}
 
 \begin{center}
 \vspace{20mm}
@@ -23,9 +23,9 @@
 \end{center}
 \\
 \vspace{10mm}\\
-\textbf{\LARGE NAME: \hskip0em\vtop{\vskip.05cm\hsize=4.0in \hrulefill}}\\
+\textbf{\LARGE NAME: \underline{\hspace{3cm}}}\\
 \vspace{10mm}\\
-\textbf{\LARGE DATE OF BIRTH: \hskip0.5em\vtop{\vskip.05cm\hsize=3in \hrulefill}}\\
+\textbf{\LARGE DATE OF BIRTH: \underline{\hspace{3cm}}}\\
 \vspace{10mm}\\
 \textbf{\LARGE Please circle your age group:}\\
 
@@ -43,16 +43,16 @@
   \item {\Large The questions go from easy to hard, so it’s best to start at the beginning and go in order.}
   \item {\Large You can use your chess board and pieces to help you.}
   \item {\Large Each page show a question and a point you can obtain. Please write your answers in the space under each picture. Altogether, the test has 100 points. Even if you don’t give perfect answers, you can still get some partial points.}
-    \item {\Large For endgame puzzles, try to show enough moves to reach a position where you are clearly winning or drawing.}
-    \item {\Large You don’t have to finish them all, do your best and solve as many puzzles as you can.}
+  \item {\Large For endgame puzzles, try to show enough moves to reach a position where you are clearly winning or drawing.}
+  \item {\Large You don’t have to finish them all, do your best and solve as many puzzles as you can.}
 \end{itemize}
 \vspace{3mm}\\
 \textbf{\LARGE Enjoy the problem solving.}
 \end{titlepage}
-%
+
 % Example Question
 \newpage
-\noindent\textbf{\Large Example 1. Mate in two.}\\
+\textbf{\Large Example 1. Mate in two.}\\
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=k7/7R/2K5/8/8/8/8/8 w - - 0 1]}
@@ -64,7 +64,7 @@
 \Large{2. Rh8\# (1-0)}\\
 \vspace{15mm}
 
-\noindent\textbf{\Large Example 2. Black moves and draws.}\\
+\textbf{\Large Example 2. Black moves and draws.}\\
 {\setchessboard{inverse, boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=3k4/8/3PK3/8/8/8/8/8 b - - 0 1]}
@@ -78,7 +78,7 @@
 %
 % Question 1
 \newpage
-\noindent\textbf{\Large Q1. Mate in two. (4 marks)}\\
+\textbf{\Large Q1. Mate in two. (4 marks)}\\
 \\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
@@ -257,7 +257,7 @@
 \textbf{\Large Answer:}\\
 \\
 \vspace{50mm}\\
-\variation{\Large 1. Qe6! Kd3 2. 0-0-0\# (1-0)}\\
+\variation{\Large 1. Qe6! Kd3 2. O-O-O\# (1-0)}\\
 \\
 \Large{Intention: Waiting move, castling (Medium?)}\\
 
@@ -281,11 +281,11 @@
 
 \vfill\Large{Source:}\\
 %
-% Question 11
+% Question 14
 \newpage
-\noindent\textbf{\Large Q11. 5 Queens Domination puzzle. Place 5 queens on the board so that all the squares are attacked by those 5 queens. (8 marks)}\\
+\textbf{\Large Q14. 5 Queens Domination puzzle. Place 5 queens on the board so that all the squares are attacked by those 5 queens. (8 marks)}\\
 
-\noindent\Large{Do you know? There are 7,624,512 ($_{64}C_{5}$) patterns to place 5 queens on the board. Among those patern, 4,860 patterns are correct. In one episode of "Take Take Take" YouTube channel, Magnus Carlsen took about 5 minutes to complete this task. Can you beat him?}\\
+\Large{Do you know? There are 7,624,512 ($_{64}C_{5}$) patterns to place 5 queens on the board. Among those patern, 4,860 patterns are correct. In one episode of "Take Take Take" YouTube channel, Magnus Carlsen took about 5 minutes to complete this task. Can you beat him?}\\
 
 {\setchessboard{boardfontsize=25pt, labelfontsize=14pt, showmover=false}
 \chessboard[setfen=8/8/8/8/8/8/8/8]}
@@ -294,13 +294,13 @@
 
 \textbf{\Large Answer:}\\
 
-\noindent\Large{Fill 5 squares in the left board with the letters "Q". When you make mistakes in the left board, put a large cross on the left board and use the right board.}\\
-%
-% Question 12
-\newpage
-\noindent\textbf{\Large Q12. Mate in eight. (8 marks)}\\
+\Large{Fill 5 squares in the left board with the letters "Q". When you make mistakes in the left board, put a large cross on the left board and use the right board.}\\
 
-\noindent\Large{In memory of Daniel Naroditsky (1995-2025). He is an American grand master, and he is famous streamer as "Danya". He tragically passed away in October 2025 at the age of 29.}\\
+% Question 15
+\newpage
+\textbf{\Large Q15. Mate in eight. (8 marks)}\\
+
+\Large{In memory of Daniel Naroditsky (1995-2025). He is an American grand master, and he is famous streamer as "Danya". He tragically passed away in October 2025 at the age of 29.}\\
 
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
@@ -314,7 +314,5 @@
 \textbf\Large{Intention: Might be long, but straightforward (Medium?)}\\
 
 \vfill\Large{Source: Daniel Naroditsky - Timur Gareyebv 2020}
-%
-%
 
 \end{document}
