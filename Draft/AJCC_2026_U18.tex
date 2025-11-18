@@ -1,0 +1,120 @@
+\documentclass[14pt]{article}
+\usepackage[top=30truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{xskak}
+\usepackage{fancyhdr}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{fancy}
+
+\lhead{\Large ADMIN ONLY Time submitted: \underline{\hspace{3cm}} Total score: \underline{\hspace{3cm}}/100}
+
+\begin{center}
+\vspace{20mm}
+\textbf{\Huge 2026 AUSTRALIAN JUNIOR}\\
+\vspace{8mm}
+\textbf{\Huge CHESS CHAMPIONSHIP}\\
+\vspace{8mm}
+\textbf{\Huge PROBLEM SOLVING U18}\\
+\vspace{8mm}
+\textbf{\Huge CANBERRA}\\
+\end{center}
+
+\vspace{10mm}\\
+\textbf{\LARGE NAME: \hskip0em\vtop{\vskip.05cm\hsize=4.0in \hrulefill}}\\
+\vspace{10mm}\\
+\textbf{\LARGE DATE OF BIRTH: \hskip0.5em\vtop{\vskip.05cm\hsize=3in \hrulefill}}\\
+\vspace{10mm}\\
+\textbf{\LARGE Please circle your age group:}\\
+\begin{itemize}
+  \item \textbf{\Large  U14 (born after 1/1/2018!!)}
+  \item \textbf{\Large  U16 (born after 1/1/2018!!)}
+  \item \textbf{\Large  U18 (born after 1/1/2018!!)}
+\end{itemize}
+\vspace{5mm}\\
+\textbf{\LARGE Please circle: Boy or Girl}\\
+\vspace{10mm}\\
+\textbf{\LARGE Please read the following rules.}\\
+\begin{itemize}
+  \item {\Large You have up to 2 hours for the problem solving paper. You may not need all that time. You can leave after handing in your answers.}
+  \item {\Large The questions go from easy to hard, so it’s best to start at the beginning and go in order.}
+  \item {\Large You can use your chess board and pieces to help you.}
+  \item {\Large Each page show a question and a point you can obtain. Please write your answers in the space under each picture. Altogether, the test has 100 points. Even if you don’t give perfect answers, you can still get some partial points.}
+    \item {\Large For endgame puzzles, try to show enough moves to reach a position where you are clearly winning or drawing.}
+    \item {\Large You don’t have to finish them all, do your best and solve as many puzzles as you can.}
+\end{itemize}
+\vspace{3mm}\\
+\textbf{\LARGE Enjoy the problem solving.}
+\end{titlepage}
+
+
+
+
+% Example Question
+\newpage
+\textbf{\Large Example 1. Mate in two.}\\
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=k7/7R/2K5/8/8/8/8/8 w - - 0 1]}
+\hspace{3mm} \Large{The open box shows White's move.}\\
+
+\textbf{\Large Answer:}\\
+
+\Large{1. Kb6  \hspace{5mm} Kb8}\\
+\Large{2. Rh8\# (1-0)}\\
+
+\textbf{\Large Example 2. Black moves and draws.}\\
+{\setchessboard{inverse, boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=3k4/8/3PK3/8/8/8/8/8 b - - 0 1]}
+\hspace{3mm} \Large{The closed box shows Black's move.}\\
+
+\textbf{\Large Answer:}\\
+
+\Large{1. ... \hspace{5mm} Ke8}\\
+\Large{2. d7+ \hspace{2mm} Kd8}\\
+\Large{3. Kd6 (draw)}\\
+
+
+
+
+
+
+
+
+
+\newpage
+\textbf{\Large Q14. 8 Queens Independent puzzle. Place 8 queens on the board so that all 8 Queens don't attack each other. (8 marks)}\\
+
+\Large{Do you know? There are 4,426,165,368 ($_{64}C_{8}$) patterns to place 8 queens on the board. Among those patern, only 92 patterns are correct. In one episode of "Take Take Take" YouTube channel, Magnus Carlsen took 8 minutes 20 seconds to complete this task. Can you beat him?}
+
+{\setchessboard{boardfontsize=25pt, labelfontsize=14pt, showmover=false}
+\chessboard[setfen=8/8/8/8/8/8/8/8]}
+{\setchessboard{boardfontsize=25pt, labelfontsize=14t, showmover=false}
+\chessboard[setfen=8/8/8/8/8/8/8/8]}\\
+
+\textbf{\Large Answer:}\\
+
+\Large{Fill 8 squares in the left board with the letters "Q". When you make mistakes in the left board, write a large cross on the left board and use the right board.}\\
+
+
+\newpage
+\textbf{\Large Q15. Mate in six. (8 marks)}\\
+
+\Large{In memory of Daniel Naroditsky (1995-2025). He is an American grand master, and is a famous streamer as "Danya". He tragically passed away in October 2025 at the age of 29.}\\
+
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/5Pp1/3b2pq/p1p3p1/p1PpR1P1/Pk1PpB1b/1P2P2P/1K6 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\variation{\Large 1. Re7! Bxe7 2. f8=Q Bxf8 3. Bc6 Qh4 4. Bxa4+ Kxa4 5. Ka2 Qe1 6. b3\#}\\
+
+\Large{Intention: Sacrifice for Bishop's path, block Queen's path, and seting up mate. (Hard?)}\\
+
+\vfill\Large{Source: "Grandmaster Solves Grandmaster-Level Puzzles" from Daniel Naroditsky's YouTube channel. The puzzle itself is puzzle ID925 of Chess.com (rating 3020 at the time).}\\
+
+\end{document}
