@@ -1,5 +1,5 @@
 \documentclass[14pt]{article}
-\usepackage[top=30truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage[top=25truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry}
 \usepackage{xskak}
 \usepackage{fancyhdr}
 \setlength\parindent{0pt}
@@ -9,52 +9,55 @@
 \begin{titlepage}
 \thispagestyle{fancy}
 
-\lhead{\Large ADMIN ONLY Time submitted: \underline{\hspace{3cm}} Total score: \underline{\hspace{3cm}}/100}
+\lhead{\Large ADMIN ONLY \hspace{3mm} Time submitted: \underline{\hspace{2.5cm}} Total score: \underline{\hspace{2.5cm}}/100}
 
 \begin{center}
 \vspace{20mm}
 \textbf{\Huge 2026 AUSTRALIAN JUNIOR}\\
-\vspace{8mm}
+\vspace{6mm}
 \textbf{\Huge CHESS CHAMPIONSHIP}\\
-\vspace{8mm}
-\textbf{\Huge PROBLEM SOLVING U18}\\
-\vspace{8mm}
+\vspace{6mm}
+\textbf{\Huge PROBLEM SOLVING U12}\\
+\vspace{6mm}
 \textbf{\Huge CANBERRA}\\
 \end{center}
 
-\vspace{10mm}\\
-\textbf{\LARGE NAME: \hskip0em\vtop{\vskip.05cm\hsize=4.0in \hrulefill}}\\
-\vspace{10mm}\\
-\textbf{\LARGE DATE OF BIRTH: \hskip0.5em\vtop{\vskip.05cm\hsize=3in \hrulefill}}\\
-\vspace{10mm}\\
+\vspace{8mm}\\
+\textbf{\LARGE NAME: \hspace{3mm} \underline{\hspace{8cm}}}\\
+\vspace{5mm}\\
+\textbf{\LARGE DATE OF BIRTH: \hspace{3mm} \underline{\hspace{5cm}}}\\
+\vspace{5mm}\\
+
 \textbf{\LARGE Please circle your age group:}\\
 \begin{itemize}
-  \item \textbf{\Large  U14 (born after 1/1/2018!!)}
-  \item \textbf{\Large  U16 (born after 1/1/2018!!)}
-  \item \textbf{\Large  U18 (born after 1/1/2018!!)}
+  \item \textbf{\Large  U14 (born in 2013 or after)}
+  \item \textbf{\Large  U16 (born in 2011 or after)}
+  \item \textbf{\Large  U18 (born in 2009 or after)}
 \end{itemize}
 \vspace{5mm}\\
+
 \textbf{\LARGE Please circle: Boy or Girl}\\
-\vspace{10mm}\\
+\vspace{5mm}\\
+
 \textbf{\LARGE Please read the following rules.}\\
 \begin{itemize}
   \item {\Large You have up to 2 hours for the problem solving paper. You may not need all that time. You can leave after handing in your answers.}
   \item {\Large The questions go from easy to hard, so it’s best to start at the beginning and go in order.}
   \item {\Large You can use your chess board and pieces to help you.}
   \item {\Large Each page show a question and a point you can obtain. Please write your answers in the space under each picture. Altogether, the test has 100 points. Even if you don’t give perfect answers, you can still get some partial points.}
-    \item {\Large For endgame puzzles, try to show enough moves to reach a position where you are clearly winning or drawing.}
-    \item {\Large You don’t have to finish them all, do your best and solve as many puzzles as you can.}
+  \item {\Large For endgame puzzles, show enough moves to reach a position where you are clearly winning or drawing.}
+  \item {\Large You don’t have to finish them all, do your best and solve as many puzzles as you can.}
 \end{itemize}
 \vspace{3mm}\\
+
 \textbf{\LARGE Enjoy the problem solving.}
 \end{titlepage}
 
 
-
-
 % Example Question
 \newpage
-\textbf{\Large Example 1. Mate in two.}\\
+\textbf{\Large Example Q1. Mate in two.}\\
+
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=k7/7R/2K5/8/8/8/8/8 w - - 0 1]}
@@ -62,10 +65,10 @@
 
 \textbf{\Large Answer:}\\
 
-\Large{1. Kb6  \hspace{5mm} Kb8}\\
-\Large{2. Rh8\# (1-0)}\\
+\Large{1. Kb6  \hspace{5mm} Kb8 \hspace{8mm} \textleftarrow \hspace{2mm} Write the first White move, then the first Black move.}\\
+\Large{2. Rh8\# (1-0) \hspace{8mm} \textleftarrow \hspace{2mm} Write the second White move, which is a mate.}\\
 
-\textbf{\Large Example 2. Black moves and draws.}\\
+\textbf{\Large Example Q2. Black moves and draws.}\\
 {\setchessboard{inverse, boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=3k4/8/3PK3/8/8/8/8/8 b - - 0 1]}
@@ -75,11 +78,51 @@
 
 \Large{1. ... \hspace{5mm} Ke8}\\
 \Large{2. d7+ \hspace{2mm} Kd8}\\
-\Large{3. Kd6 (draw)}\\
+\Large{3. Kd6 (draw)  \hspace{8mm} \textleftarrow \hspace{2mm} Write enough moves showing a clear draw position.}\\
+
+
+\newpage
+\textbf{\Large Q1A. Mate in two. (4 marks)}\\
+
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/4K3/8/4k3/4B3/6R1/8/4Q3 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\variation{\Large 1. Re3! Kf4 2. Qg3\#}\\
+\variation{\Large 1... Kd4 2. Bc3\#}\\
+
+\textbf\Large{Intention: Symmetry, zugzang (Easy warm-up)}\\
+
+\vfill\Large{Source: Smuel Loyd, Household Journal, 1861}
+
+
+\newpage
+\textbf{\Large Q1B. Mate in two. (4 marks)}\\
+
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2B5/8/8/2K3P1/4k3/6R1/3B4/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\variation{\Large 1. Rg2! Kf3 2. Bb7\#}\\
+\variation{\Large 1... Kd3 2. Bf5\#}\\
+\variation{\Large 1... Ke5 2. Re2\#}\\
+
+\textbf\Large{Intention: Two bishops (Easy warm-up)}\\
+\textbf\Large{The previous one or this one for easy warm-up.}\\
+
+\vfill\Large{Source: Smuel Loyd, Musical World, 1859}
 
 
 
 
+
+
+
+2R4k/8/5N1P/8/8/8/4K3/1q6 b - - 1 4
 
 
 
@@ -97,7 +140,7 @@
 
 \textbf{\Large Answer:}\\
 
-\Large{Fill 8 squares in the left board with the letters "Q". When you make mistakes in the left board, write a large cross on the left board and use the right board.}\\
+\Large{We can not give you 8 queens, so use 8 pawns instead. Fill 8 squares in the left board with the letters "Q". When you make mistakes in the left board, write a large cross on the left board and use the right board.}\\
 
 
 \newpage
