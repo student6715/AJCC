@@ -27,6 +27,9 @@ ALPHA will be uploaded by the starting day of the Championships on the webpage. 
 
 ### Page 10, Q8ABC. Helpmate in 1.
 
+### Page 11, Helpmate in 3.
+https://www.yacpdb.org/#638060
+
 ### Page 11, Q9. Selfmate in 2.
 
 ### Page 12, Q10. Selfmate in 2.
