@@ -1,0 +1,98 @@
+\documentclass[14pt]{article}
+\usepackage[top=25truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{xskak}
+\usepackage{fancyhdr}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+
+
+
+\newpage
+\textbf{\Large Q. Show a winning sequence.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=q5r1/8/8/8/8/8/Q4K1k/1R6 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1.Rh1+! Qxh1 2.Qxg3}\\
+\variation{\Large 1.Rh1+! Kxh1 2.Qb1+ Rg1 3.Qh7#}\\
+
+\vfill\textbf{\Large Source: }
+
+
+\newpage
+\noindent\textbf{\Large Q2. Is there any difference between left and right?}\\
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=6k1/7p/7K/6P1/8/8/7P/8 w - - 0 1]}
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=6k1/7p/7K/6P1/8/7P/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\textbf{\Large White wins in left and draws in right.}\\
+White wins as follow.\\
+\variation{\Large 1.h3 Kh8}\\
+\variation{\Large 2.h4 Kg8}\\
+\variation{\Large 3.h5 Kh8}\\
+\variation{\Large 4.g6 hxg6}\\
+\variation{\Large 5.hxg6 Kg8}\\
+\variation{\Large 6.g7}\\
+\variation{\Large 1.h3 Kh8 2.h4 Kg8 3.h5 Kh8 4.g6 hxg6 5.hxg6 Kg8 6.g7}\\
+
+\vfill\textbf{\Large Source: Theoretical endgame}
+
+
+
+
+\newpage
+\noindent\textbf{\Large Q. Mate in 3.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=7B/bB2PbR1/4P1p1/4rPN1/1P1kP3/4N3/3K4/4n3 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Bd5!}\\
+Any moves except e5 Rook, \variation{\Large 2. Nc2+ Nxc2 3. Nf3#}.\\
+
+\vfill\Large {Source: Valentin Fedorovich Rudenko,  Problemnoter, 1960 (YACDB: 57240)}
+
+
+\newpage
+\noindent\textbf{\Large Q. Mate in 3.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=7B/bB2PbR1/4P1p1/4rPN1/1P1kP3/4N3/3K4/4n3 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Bd5!}\\
+Any moves except e5 Rook, \variation{\Large 2. Nc2+ Nxc2 3. Nf3#}.\\
+
+\vfill\Large {Source: Valentin Fedorovich Rudenko,  Problemnoter, 1960 (YACDB: 57240)}
+
+
+
+\newpage
+\noindent\textbf{\Large Q. Mate in 2.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/4Q3/1qp1N2b/1p3n2/2B5/2BNk1p1/6P1/R3K2R w KQ - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. O-O-O}\\
+
+\vfill\Large {Source: Michael Lipton, Great Britain - Israel, 1961 (YACDB: 36663)}
+
+
+32371
+Mansfield, Comins
+La Settimana Enigmistica, 1935
+2nd Prize, Categoria I, 1st half-year
+La Settimana Enigmistica, 1935
+
+32806
+Morse, Christopher Jeremy
+The Observer, 1962
+\end{document}

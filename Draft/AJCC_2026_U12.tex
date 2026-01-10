@@ -93,30 +93,7 @@
 
 
 \newpage
-\noindent\textbf{\Large Q2. Is there any difference between left and right?}\\
-{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
-\newchessgame
-\chessboard[setfen=6k1/7p/7K/6P1/8/8/7P/8 w - - 0 1]}
-{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
-\newchessgame
-\chessboard[setfen=6k1/7p/7K/6P1/8/7P/8/8 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\textbf{\Large White wins in left and draws in right.}\\
-White wins as follow.\\
-\variation{\Large 1.h3 Kh8}\\
-\variation{\Large 2.h4 Kg8}\\
-\variation{\Large 3.h5 Kh8}\\
-\variation{\Large 4.g6 hxg6}\\
-\variation{\Large 5.hxg6 Kg8}\\
-\variation{\Large 6.g7}\\
-\variation{\Large 1.h3 Kh8 2.h4 Kg8 3.h5 Kh8 4.g6 hxg6 5.hxg6 Kg8 6.g7}\\
-
-\vfill\textbf{\Large Source: Theoretical endgame}
-
-
-\newpage
-\noindent\textbf{\Large Q3. Mate in 2.}\\
+\textbf{\Large Q2. Mate in 2.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=2R5/8/3k4/3N2p1/4K1Q1/8/8/8 w - - 0 1]}\\
@@ -131,8 +108,30 @@ White wins as follow.\\
 \vfill\textbf{\Large Source: Samuel Loyd, Buffalo Commercial Advertiser, 1879 (YACDB: 32755)}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
-\noindent\textbf{\Large Q5. The position below occured at the 4th Black's move from the starting position. Answer the moves.} \\
+\textbf{\Large Q3. The position below occured at the 4th Black's move from the starting position. Answer the moves.} \\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=rnbqkb1r/ppp2ppp/8/8/8/8/PPPPPPPP/RNBQKB1R w KQkq - 0 5]}\\
@@ -148,7 +147,55 @@ Die Schwalbe, 1981}
 
 
 \newpage
-\noindent\textbf{\Large Q6. Mate in 3.}\\
+\textbf{\Large Q4. Mate in two.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/8/1p1Q4/1p6/2p5/p1k5/R3K3 w Q - 0 1]}
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Qe6! Kd3 2. O-O-O\# (1-0)}\\
+
+\vfill\Large{Source: William Whyatt}\\
+
+
+\newpage
+\textbf{\Large Study 1. White to play and win.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2r1k3/8/8/2pK4/6R1/8/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Rg8+ Kd7}\\
+\variation{\Large 2. Rg7+ Ke8}\\
+\variation{\Large 3. Rh7! c4}\\
+\variation{\Large 4. Kd6! Rd8}\\
+\variation{\Large 5. Ke6 Kf8}\\
+\variation{\Large 6. Kh8+ Kg7}\\
+\variation{\Large 7. Rxd8}\\
+
+\vfill\Large{Source: Alexey Studenetsky, Shakhmaty v SSSR, 1939}
+
+
+\newpage
+\textbf{\Large Study 2. White to play and draw.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/8/K6p/8/8/kp5R/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Ka6!} (Counterintuitive, but the only move.)\\
+\variation{\Large 1... h4}
+\variation{\Large 2. Ka5 h3}
+\variation{\Large 3. Ka4 Ka1}
+\variation{\Large 4. Rxh3 b1=Q}
+\variation{\Large 5. Ra3+ Qa2}
+\variation{\Large 6. Rxa2+ Kxa2 (draw)}
+
+\vfill\Large{Source: David Gurgenidze, Tiny Endgames, 1999 (YACDB: 276417)}
+
+
+\newpage
+\textbf{\Large Q6. Mate in 3.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=8/5Q2/8/4k3/8/K6R/8/8 w - - 0 1]}\\
@@ -164,184 +211,115 @@ If \variation{\Large 1... Ke4}, \variation{\Large 2. Kc5 Ke5 3. Re3#}\\
 
 
 \newpage
-\noindent\textbf{\Large Q7. Show a winning sequence.}\\
-
+\textbf{\Large Q7. Selfmate in 2. White forces Black to mate White King himSELF in Black's 2nd move.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
-\chessboard[setfen=q5r1/8/8/8/8/8/Q4K1k/1R6 w - - 0 1]}\\
+\chessboard[setfen=8/2pN4/8/8/6Q1/3pk3/4p3/4K3 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
+\variation{1. Ne5 c5}\\
+\variation{2. Qc4 d2#}\\
 
-\variation{\Large 1.Rh1+! Qxh1 2.Qxg3}\\
-\variation{\Large 1.Rh1+! Kxh1 2.Qb1+ Rg1 3.Qh7#}\\
-
-\textbf{\Large Intention: Sacrifice (Easy?)}\\
-\vfill\textbf{\Large Source: }
+\vfill{\Large Source: Alexander Hildebrand, Springaren, 1998 (YACDB: 90375)}
 
 
 \newpage
-\noindent\textbf{\Large Q8. Mate in three.}\\
-
+\textbf{\Large Q8. Helpmate in 3. Black to play first and helps White checkmates in 3 moves.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
-\chessboard[setfen=2K3N1/B2p2N1/3p4/4k3/P4p2/1PR2P2/2P5/5B2 w - - 0 1]}\\
+\chessboard[setfen=1K6/8/1N6/1k6/8/1B6/8/8 b - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\\
-\variation{\Large 1.Bg2! Kd5 2.Re3 fxe3 3.f4#}\\
-\variation{\Large 1.Bg2! Kd5 2.Re3 Kc6 3.Ne7#}\\
-\variation{\Large 1.Bg2! d5 2.Kxd7 d4 3.Rc5#}\\
-\\
-\variation{\Large1.Kd7 d5 2.Rd3+ Ke5 3.Kc6 d5 4.Rd5#} \textbf{\Large (takes 4 moves)}\\
-\\
-\textbf{\Large Intention: Counterintuitive 1st move (Medium?)}\\
-\\
-\vfill\Large{Source: Thomas Denton Clarke, The Brisbane Courier 1918}
-%
-% 
+\variation{0... Nd5}\\
+\variation{1. Ka7 Nb4}\\
+\variation{2. Kb6 Ka4}\\
+\variation{3. Nc5#}\\
 
-\newpage
-\noindent\textbf{\Large Q9. Mate in two.}\\
-\\
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=8/8/8/1p1Q4/1p6/2p5/p1k5/R3K3 w Q - 0 1]}
-\\
-\textbf{\Large Answer:}\\
-\\
-\vspace{50mm}\\
-\variation{\Large 1. Qe6! Kd3 2. O-O-O\# (1-0)}\\
-\\
-\Large{Intention: Waiting move, castling (Medium?)}\\
-
-\vfill\Large{Source: William Whyatt}\\
-
-
-
-
-
-
-
-
-
+\vfill{\Large Source: Henrik Eriksson, stella polaris, 1967 (YACDB: 303520)}
 
 
 \newpage
-\noindent\textbf{\Large Study 2. White to play and draw.}\\
-
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=2r1k3/8/8/2pK4/6R1/8/8/8 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Rg8+ Kd7 2. Rg7+ Ke8 3. Rh7! c4 4. Kd6! Rd8 5. Ke6}\\
-
-
-\vfill\Large{Source: Alexey Studenetsky, Shakhmaty v SSSR, 1939}
-% Intention:
-
-
-
-
-\newpage
-\noindent\textbf{\Large Q10. White to play and draw.}\\
-
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=8/8/8/K6p/8/8/kp5R/8 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Ka6! }\\
-
-
-\vfill\Large{Source:}
-% Intention:
-
-
-\newpage
-\noindent\textbf{\Large Q11. White to play and win.}\\
-
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=8/8/p5r1/1p6/1P1R4/8/5K1p/7k w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Rd1+  Rg1 2. Rf1! Rxf1+ 3. Kxf1 a5 4. bxa5 b4}\\
-\variation{\Large 5. a6 b3 6. a7 b2 7. a8=Q\#}\\
-
-\vfill\Large{Source:}
-% Intention:
-
-\newpage
-\noindent\textbf{\Large Q12. White to play and mate in 3.}\\
-
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=8/k7/1pK5/8/8/8/4R3/8 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Rc2  b5 2. Kc7 b4 3. Ra2\#}\\
-
-\vfill\Large{Source:}
-% Intention:
-
-\newpage
-\noindent\textbf{\Large Q13. White to play and win.}\\
-
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=2r3r1/3q3p/p6b/Pkp1B3/1p1p1P2/1P1P1Q2/2R3PP/2R3K1 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Bc7!  Qxc7 2. Rxc5+ Qxc5 3. Qxb7+ Qb6 4. Qxb6\#}\\
-\variation{\Large 1. Bc7!  Rxc7 2. Qb7+! Rxb7 3. Rxc5\#}\\
-\vfill\Large{Source:}
-% Intention:
-
-\newpage
-\noindent\textbf{\Large Q14. White to play and win.}\\
-
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=6k1/1B5p/1p6/3n4/3r4/7P/5KP1/2R5 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Rc4}\\
-\vfill\Large{Source:}
-% Intention: There are no clear moves after Rc4.
-
-
-
-
-
-
-
-
-
-
-
-\newpage
-\noindent\textbf{\Large Q13. Mate in two.}\\
-
+\textbf{\Large Q9. Mate in 2.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=K1Q5/1p5r/8/2B5/8/8/R7/7k w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-There are three threats, Qc1, Qh3, Qh8.\\
-\variation{\Large 1. Bd4 Rd7 2. Qc1\#}\\
-\variation{\Large 1... Rc7 2. Qh3\#}\\
-
-\Large{Intention:}\\
+\variation{\Large 1. Bd4} creates another threats Qc1 in addition to Qh3 and Qh8.\\
+\variation{\Large 1... Rd7 2. Qc1#}\\
+\variation{\Large 1... Rc7 2. Qh3#}\\
+Other bishop moves fails, as \variation{\Large 1. Bd4} is necessary to prevents \variation{\Large 1... Rd1}.\\
 
 \vfill{\Large Source: Miroslav Subotić, The Problemist, 1992 (YACDB: 13286)}
+
+
+\newpage
+\textbf{\Large Q10. Mate in 3.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/k7/1pK5/8/8/8/4R3/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Rc2}\\
+\variation{\Large 1... b5 2. Kc7 b4 3. Ra2#}\\
+\variation{\Large 1... Ka8 2. Kc7 b5 3. Ra2#}\\
+\variation{\Large 1... Kb8 2. Kxb6 Ka8 3. Rc8#}\\
+
+\vfill\Large{Source: Sigmund Lehner, Illustrirtes Familien-Journal, 1864 (YACDB: 92993)}
+
+
+\newpage
+\textbf{\Large Q11. White to play and win.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/p5r1/1p6/1P1R4/8/5K1p/7k w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Rd1+  Rg1}\\
+\variation{\Large 2. Rf1! Rxf1+}\\
+\variation{\Large 3. Kxf1 a5}\\
+\variation{\Large 4. bxa5 b4}\\
+\variation{\Large 5. a6 b3}\\
+\variation{\Large 6. a7 b2}\\
+\variation{\Large 7. a8=Q#}\\
+
+\vfill\Large{Source: Philippe Stamma, Essai sur le Jeu des Echecs, 1737 (modified) (YACDB: 394020)}
+
+
+\newpage
+\textbf{\Large Q12. White to play and win.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2r3r1/3q3p/p6b/Pkp1B3/1p1p1P2/1P1P1Q2/2R3PP/2R3K1 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Bc7!}\\
+If \variation{\Large 1... Rxc7}, \variation{\Large 2. Qb7+! Rxb7 3. Rxc5#}.\\
+If \variation{\Large 1... Qxc7}, \variation{\Large 2. Rxc5+ Qxc5 3. Qxb7+ Qb6 4. Qxb6#}.\\
+
+\vfill\Large{Source: Tarrasch - Marotti 1914}
+
+
+\newpage
+\textbf{\Large Q13. Mate in 3.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2K3N1/B2p2N1/3p4/4k3/P4p2/1PR2P2/2P5/5B2 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+\variation{\Large 1.Bg2! Kd5 2.Re3 fxe3 3.f4#}\\
+\variation{\Large 1.Bg2! Kd5 2.Re3 Kc6 3.Ne7#}\\
+\variation{\Large 1.Bg2! d5 2.Kxd7 d4 3.Rc5#}\\
+\\
+\variation{\Large1.Kd7 d5 2.Rd3+ Ke5 3.Kc6 d5 4.Rd5#} \textbf{\Large (takes 4 moves)}\\
+
+\vfill\Large{Source: Thomas Denton Clarke, The Brisbane Courier 1918}
 
 
 \newpage
 \textbf{\Large Q14. 5 Queens Domination puzzle. Place 5 queens on the board so that all the squares are attacked by those 5 queens. (8 marks)}\\
 
 \Large{Do you know? There are 7,624,512 ($_{64}C_{5}$) patterns to place 5 queens on the board. Among those patern, 4,860 patterns are correct. In one episode of "Take Take Take" YouTube channel, Magnus Carlsen took about 5 minutes to complete this task. Can you beat him?}\\
-
 {\setchessboard{boardfontsize=25pt, labelfontsize=14pt, showmover=false}
 \chessboard[setfen=8/8/8/8/8/8/8/8]}
 {\setchessboard{boardfontsize=25pt, labelfontsize=14t, showmover=false}
@@ -353,95 +331,24 @@ There are three threats, Qc1, Qh3, Qh8.\\
 
 
 \newpage
-\textbf{\Large Q15. Mate in eight. (8 marks)}\\
-\Large{In memory of Daniel Naroditsky (1995-2025). He is an American grand master, and he is famous streamer as "Danya". He tragically passed away in October 2025 at the age of 29.}\\
+\textbf{\Large Q15. Mate in 8. (8 marks)}\\
+
+\Large{In memory of Daniel Naroditsky (1995-2025). He is an American grand master and a famous streamer as "Danya". He tragically passed away in October 2025 at the age of 29.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=2r1b3/p3Pppk/3Q3p/2r5/qp1N1P1B/6R1/PPP3PP/6K1 w - - 3 28]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Rxg7+! Kxg7 2. Qf6+ Kg8 3. Ne6 fxe6 4. Qf8+ Kh7 5. Bf6 Rg5 6. fxg5 Kg6 7. g4 Qxc3 8. Qg7#}\\
+\variation{\Large 1. Rxg7+!! Kxg7}\\
+\variation{\Large 2. Qf6+ Kg8}\\
+\variation{\Large 3. Ne6!! fxe6}\\
+\variation{\Large 4. Qf8+ Kh7}\\
+\variation{\Large 5. Bf6 Rg5}\\
+\variation{\Large 6. fxg5 Kg6}\\
+\variation{\Large 7. g4 Qxc3}\\
+\variation{\Large 8. Qg7#}\\
 
-\textbf\Large{Intention: Might be long, but straightforward (Medium?)}\\
+\vfill\Large{Source: Daniel Naroditsky - Timur Gareyebv, U.S. Championship Online Qualifier, 2020}
 
-\vfill\Large{Source: Daniel Naroditsky - Timur Gareyebv 2020}
-
-
-
-
-
-
-\newpage
-\noindent\textbf{\Large Q. Mate in 3.}\\
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=7B/bB2PbR1/4P1p1/4rPN1/1P1kP3/4N3/3K4/4n3 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Bd5!}\\
-Any moves except e5 Rook, \variation{\Large 2. Nc2+ Nxc2 3. Nf3#}.\\
-
-\vfill\Large {Source: Valentin Fedorovich Rudenko,  Problemnoter, 1960 (YACDB: 57240)}
-
-
-\newpage
-\noindent\textbf{\Large Q. Mate in 3.}\\
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=7B/bB2PbR1/4P1p1/4rPN1/1P1kP3/4N3/3K4/4n3 w - - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. Bd5!}\\
-Any moves except e5 Rook, \variation{\Large 2. Nc2+ Nxc2 3. Nf3#}.\\
-
-\vfill\Large {Source: Valentin Fedorovich Rudenko,  Problemnoter, 1960 (YACDB: 57240)}
-
-
-\newpage
-\noindent\textbf{\Large Q. Mate in 3.}\\
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=8/4Q3/1qp1N2b/1p3n2/2B5/2BNk1p1/6P1/R3K2R w KQ - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. O-O-O}\\
-
-\vfill\Large {Source: Michael Lipton, Great Britain - Israel, 1961 (YACDB: 36663)}
-
-
-\newpage
-\noindent\textbf{\Large Q. Mate in 2.}\\
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=8/4Q3/1qp1N2b/1p3n2/2B5/2BNk1p1/6P1/R3K2R w KQ - 0 1]}\\
-
-\textbf{\Large Answer:}\\
-\variation{\Large 1. O-O-O}\\
-
-\vfill\Large {Source: Michael Lipton, Great Britain - Israel, 1961 (YACDB: 36663)}
-
-
-
-
-
-
-
-
-
-
-32371
-Mansfield, Comins
-La Settimana Enigmistica, 1935
-2nd Prize, Categoria I, 1st half-year
-La Settimana Enigmistica, 1935
-
-
-
-
-
-
-32806
-Morse, Christopher Jeremy
-The Observer, 1962
 
 \end{document}
