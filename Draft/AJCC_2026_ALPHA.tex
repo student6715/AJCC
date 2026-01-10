@@ -94,21 +94,11 @@
 
 
 \newpage
-\textbf{\Large Q2. Mate in 2. (4 marks)}\\
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1]}\\
-\textbf{\Large Answer:}\\
-This is one of the most famous and hard to solve "Mate in 2" puzzles. The supprising first move is \variation{1. Ra6!}. If the b7 Pawn takes the Rook, \variation{1... bxa6 2. b7#}. If the bishop moves, \variation{1... Bh2 2. Rxa7#}. The Bishop moves to any legal squares (c7, d6, e5, f4, g3) are also correct answers.
-
-\vfill{\Large Source: Paul Morphy, 1910 (YACDB: 625426)}
-
-
-\newpage
-\textbf{\Large Q3. Mate in two. (4 marks)}\\
+\textbf{\Large Q2. Mate in 2 (4 marks)}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=8/2p5/4K3/8/3pkp2/3ppp2/8/4Q3 w - - 0 1]}\\
+
 \textbf{\Large Answer:}\\
 \variation{1. Qa5!} covers all Black's moves.\\
 \variation{1... d2 2. Qf5\#}\\
@@ -119,27 +109,36 @@ This is one of the most famous and hard to solve "Mate in 2" puzzles. The suppri
 \vfill{\Large Source: Thomas Salthouse, Falkirk Herald, 1914 (YACDB: 22264)}
 
 
+\newpage
+\textbf{\Large Q3. Mate in 2. (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/p1K5/krP2Q2/NRR5/8/8/8/8 w - - 0 1]}\\
 
+\textbf{\Large Answer:}\\
+\variation{\Large 1. Qf1}\\
+\variation{\Large 1. ... Rxb5 2. Qxb5#}\\
+\variation{\Large 1. ... Rxc6+ 2. Rxc6#}\\
+\variation{\Large 1. ... Rb7+ 2. Rxb7#}\\
 
+\variation{\Large 1. Qa1} fails as \variation{\Large 1. ... Rxb5 2. Nb3+ Ra5 3. Rxa5#/Qxa5#}\\
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\vfill\Large {Source: Cornelis Goldschmeding, problem (Zagreb), 1957 (YACDB: 8721)}
 
 
 \newpage
-\noindent\textbf{\Large Q5. What is the missing piece? Which turns? What is the position of the missing piece? Then, answer the last few moves.}\\
+\textbf{\Large Q4. Mate in 2. (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1]}\\
+\textbf{\Large Answer:}\\
+This is one of the most famous and hard to solve "Mate in 2" puzzles. The supprising first move is \variation{1. Ra6!}. If the b7 Pawn takes the Rook, \variation{1... bxa6 2. b7#}. If the bishop moves, \variation{1... Bh2 2. Rxa7#}. The Bishop moves to any legal squares (c7, d6, e5, f4, g3) are also correct answers.
+
+\vfill{\Large Source: Paul Morphy, 1910 (YACDB: 625426)}
+
+
+\newpage
+\textbf{\Large Q5. What is the missing piece? Which turns? What is the position of the missing piece? Then, answer the last few moves.}\\
 {\setchessboard{boardfontsize=30pt, labelfontsize=14pt, showmover=false}
 \newchessgame
 \chessboard[setfen=8/8/8/1r1b4/B7/8/8/3k4 - - 0 1]}\\
@@ -160,7 +159,7 @@ This puzzle was used in 2019 Q10.\\
 
 
 \newpage
-\noindent\textbf{\Large Q6. WHO moved last? WHICH piece was moved from WHERE to WHERE?}\\
+\textbf{\Large Q6. WHO moved last? WHICH piece was moved from WHERE to WHERE?}\\
 {\setchessboard{boardfontsize=30pt, labelfontsize=14pt, showmover=false}
 \newchessgame
 \chessboard[setfen=rnR1kbnr/pp2pppp/3p4/1B4N1/1R1BP3/3P2P1/PPP2PP1/3Q1KN1 b kq - 0 1]}\\
@@ -168,67 +167,46 @@ This puzzle was used in 2019 Q10.\\
 \textbf{\Large Answer:}\\
 Black king in now in check, actually under double check from Rc8 and Bb5. It is illeagal to move into check or leave your king in check. Therefore, the last move is made by White. Double check always come from discovery check and check by that move. The only possible move is a move of Rook from c6 to c8.
 
-
-This puzzle was used in 2024 Q1.\\
-
 \vfill{\Large Source: Noam Elkies, U.S. Problem Bulletin, 1995}
 
 
-
-
-
-
 \newpage
-\textbf{\Large Q6. Proof game. The position below occured after the Black's 4th move. Can you answer the moves.}\\
-
+\textbf{\Large Q7. The position below occured after the Black's 4th move from the starting position. Answer the moves to reach this position.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=rnbqkbnr/pp3ppp/2p1p3/8/4P3/8/PPPP1PPP/RNBQK1NR]}\\
 
 \textbf{\Large Answer:}\\
-This type of chess problem is called "Proof game", a type of retrograde analysis. This position is easily reached by \variation{1. e4 e6 2. Bb5 c6 3. Bxc6 dxc6}. However, this problem is asking the same position after Black's 4th move. There should be illogical, but legal White and Black move. The answer is \variation{1. e4 e6 2. Bb5+ Ke7 3. Bxd7 c6 4. Be8 Kxe8}.
+This type of chess problem is called "Proof game", a type of retrograde analysis. This position is easily reached by \variation{1. e4 e6 2. Bb5 c6 3. Bxc6 dxc6}. However, this problem is asking the same position after Black's 4th move. There should be illogical, but legal White and Black move. The answer is\\
+\variation{1. e4 e6}.\\
+\variation{2. Bb5+ Ke7}.\\
+\variation{3. Bxd7 c6}.\\
+\variation{4. Be8 Kxe8}.\\
 
 \vfill{\Large Source: Tibor Orbán, Die Schwalbe, 1976}
 
 
-
-
-
 \newpage
-\textbf{\Large Q7. Proof game. The position below occured after the Black's 4th move. Can you answer the moves.}\\
-
+\textbf{\Large Q8. The position below occured after the Black's 4th move from the starting position. Answer the moves to reach this position.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=rnbqkb1r/pppppp2/6p1/7p/3P4/8/PPP1PPPP/RN2KBNR w KQkq - 0 5]}\\
 
 \textbf{\Large Answer:}\\
-\variation{1. d4 Nh6 2. Bxh6 gxh6 3. Qd3 h5 4. Qg6 hxg6}.\\
+\variation{1. d4 Nh6}.\\
+\variation{2. Bxh6 gxh6}.\\
+\variation{3. Qd3 h5}.\\
+\variation{4. Qg6 hxg6}.\\
 
 \vfill{\Large Source: }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \newpage
-\textbf{\Large Q7. Helpmate in 1. What is Black's move to make "Mate in 1"? Answer Black's move, then White's mate move.}\\
+\textbf{\Large Q9. Helpmate in 1. What is Black's move to make "Mate in 1"? Answer Black's move, then White's mate move.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=r3k1nr/pp2q2p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 0 1]}\\
+
 \textbf{\Large Answer:}\\
 \variation{1... Kf7?? 2. Qh5\#}\\
 
@@ -236,18 +214,18 @@ This type of chess problem is called "Proof game", a type of retrograde analysis
 
 
 \newpage
-\textbf{\Large Q8. Helpmate in 1. White's positions are all same as the previous question.}\\
-\textbf{\Large Q8A.}
+\textbf{\Large 10. Helpmate in 1. White's positions are all same as the previous question.}\\
+\textbf{\Large Q10A.}
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=r2qk2r/pp1n3p/4pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 0 1]}
 \textbf{\Large Answer:} \variation{1... Be7?? 2. Qh5\#}\\
-\textbf{\Large Q8B.}
+\textbf{\Large Q10B.}
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=r2qk2r/pp2n2p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 1 2]}
 \textbf{\Large Answer:} \variation{1... Nd7?? 2. Nd6\#}\\
-\textbf{\Large Q8C.}
+\textbf{\Large Q10C.}
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=r2qk1nr/pp5p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 2 3]}
@@ -255,37 +233,40 @@ This type of chess problem is called "Proof game", a type of retrograde analysis
 \vfill{\Large Source: Jeff Coakley, Winning Chess Puzzles for Kids Vol. 2}
 
 
-
 \newpage
-\textbf{\Large Q. Helpmate in 3.}\\
+\textbf{\Large Q11. Helpmate in 3.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=1K6/8/1N6/1k6/8/1B6/8/8 b - - 0 1]}\\
 \textbf{\Large Answer:}\\
-\variation{1... Ka6?}\\
-\variation{2. Kc7 Ka7?}\\
-\variation{3. Nc8+ Ka8??}\\
-\variation{4. Bd5#}\\
+\variation{0... Ka6?}\\
+\variation{1. Kc7 Ka7?}\\
+\variation{2. Nc8+ Ka8??}\\
+\variation{3. Bd5#}\\
+With Black's help, Knight and Bishop endgame is quite easy.
 
 \vfill{\Large Source: Hilmar Ebert, Schach-Echo, 1977 (YACDB: 638060)}
 
 
 \newpage
-\textbf{\Large Q9. Selfmate in 2. In selfmate puzzles, White forces Black to mate White himSELF in Black's 2nd move.}\\
+\textbf{\Large Q12. Selfmate in 2. White forces Black to mate White King himSELF in Black's 2nd move.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=K1k1r3/P7/7Q/8/8/8/8/8 w - - 0 1]}\\
+
 \textbf{\Large Answer:}\\
-\variation{1. Qc6+ Kd8 2. Qc7+ Kxc7#}\\
+\variation{1. Qc6+ Kd8}\\
+\variation{2. Qc7+ Kxc7#}\\
 
 \vfill{\Large Source: Wilhelm Krämer, Die Schwalbe, 1928 (YACDB: 106430)}
 
 
 \newpage
-\textbf{\Large Q10. Selfmate in 2. In selfmate puzzles, White forces Black to mate White himSELF in a given moves.}\\
+\textbf{\Large Q13. Selfmate in 2. White forces Black to mate White King himSELF in a given moves.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=KB3N2/P1P1p1P1/5P1k/4P2p/7P/8/6B1/7b w - - 0 1]}\\
+
 \textbf{\Large Answer:}\\
 \variation{1. c8=N exf6}\\
 \variation{2. exf6 Bxg2#}\\
@@ -295,28 +276,15 @@ Do you understand why two underpromotions are necessary?\\
 \vfill{\Large Source: Wolfgang Pauly, The Theory of Pawn Promotion, 1912 (YACDB: 47304)}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \newpage
-\textbf{\Large Q. White to play. Who wins?}\\
+\textbf{\Large Q14. White to play. Who wins?}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard}\\
 \textbf{\Large Answer:}\\
 This is the world's hardest chess problem. We hope you will be one step closer to the answer in 2026 Australian Junior Championships.\\
+\\
+Happy Problem Solving!\\
 
 \vfill{\Large Source: Composer unknown, date unknown}
 
