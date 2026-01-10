@@ -54,6 +54,25 @@
 \end{titlepage}
 
 
+
+
+\newpage
+\noindent\textbf{\Large Q13. Mate in two.}\\
+
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=K1Q5/1p5r/8/2B5/8/8/R7/7k w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+There are three threats, Qc1, Qh3, Qh8.\\
+\variation{\Large 1. Bd4 Rd7 2. Qc1\#}\\
+\variation{\Large 1... Rc7 2. Qh3\#}\\
+
+
+\vfill{\Large Source: Miroslav Subotić, The Problemist, 1992 (YACDB: 13286)}
+
+
+
 \newpage
 \textbf{\Large Example Q1. Mate in two.}\\
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
@@ -76,35 +95,41 @@
 \Large{3. Kd6 (draw)  \hspace{8mm} \textleftarrow \hspace{2mm} Write enough moves showing a clear draw position.}\\
 
 
-\newpage
-\textbf{\Large Q1A. Mate in two. (4 marks)}\\
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=8/4K3/8/4k3/4B3/6R1/8/4Q3 w - - 0 1]}\\
 
-\textbf{\Large Answer:}\\
 
-\variation{\Large 1. Re3! Kf4 2. Qg3\#}\\
-\variation{\Large 1... Kd4 2. Bc3\#}\\
 
-\vfill\Large{Source: Smuel Loyd, Household Journal, 1861}
-%% Intention: Symmetry, zugzang (Easy warm-up)
+
+
+
+
+
 
 
 \newpage
-\textbf{\Large Q1B. Mate in two. (4 marks)}\\
+\textbf{\Large Q9. Mate in 2.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
-\chessboard[setfen=2B5/8/8/2K3P1/4k3/6R1/3B4/8 w - - 0 1]}\\
+\chessboard[setfen=K1Q5/1p5r/8/2B5/8/8/R7/7k w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
+\variation{\Large 1. Bd4} creates another threats Qc1 in addition to Qh3 and Qh8.\\
+\variation{\Large 1... Rd7 2. Qc1#}\\
+\variation{\Large 1... Rc7 2. Qh3#}\\
+Other bishop moves fails, as \variation{\Large 1. Bd4} is necessary to prevents Black Rook to d1 square.\\
 
-\variation{\Large 1. Rg2! Kf3 2. Bb7\#}\\
-\variation{\Large 1... Kd3 2. Bf5\#}\\
-\variation{\Large 1... Ke5 2. Re2\#}\\
+\vfill{\Large Source: Miroslav Subotić, The Problemist, 1992 (YACDB: 13286)}
 
-\vfill\Large{Source: Smuel Loyd, Musical World, 1859}
-%% Intention: Two bishops (Easy warm-up) The previous one or this one for easy warm-up.
+
+
+
+
+
+
+
+
+
+
+
 
 
 \newpage
@@ -257,24 +282,22 @@ or\\
 
 
 
-2R4k/8/5N1P/8/8/8/4K3/1q6 b - - 1 4
 
 
-\newpage
-\noindent\textbf{\Large Q13. Mate in two.}\\
 
-{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
-\newchessgame
-\chessboard[setfen=K1Q5/1p5r/8/2B5/8/8/R7/7k w - - 0 1]}\\
 
-\textbf{\Large Answer:}\\
-There are three threats, Qc1, Qh3, Qh8.\\
-\variation{\Large 1. Bd4 Rd7 2. Qc1\#}\\
-\variation{\Large 1... Rc7 2. Qh3\#}\\
 
-\Large{Intention:}\\
 
-\vfill{\Large Source: Miroslav Subotić, The Problemist, 1992 (YACDB: 13286)}
+
+
+
+
+
+
+
+
+
+
 
 
 \newpage
@@ -304,6 +327,6 @@ There are three threats, Qc1, Qh3, Qh8.\\
 \variation{\Large 1. Re7! Bxe7 2. f8=Q Bxf8 3. Bc6 Qh4 4. Bxa4+ Kxa4 5. Ka2 Qe1 6. b3\#}\\
 
 \vfill\Large{Source: "Grandmaster Solves Grandmaster-Level Puzzles" from Daniel Naroditsky's YouTube channel. The puzzle itself is puzzle ID925 of Chess.com (rating 3020 at the time).}
-%% Intention: Sacrifice for Bishop's path, block Queen's path, and seting up mate. (Hard?)
+
 
 \end{document}
