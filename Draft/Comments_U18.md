@@ -35,19 +35,19 @@
 ### Q9. Retrograde analysis
 - Last 10 moves
 
-## Q10. win
+### Q10. win
 - Peter 2
 - Potential checkmate
 
-## Q11. win
+### Q11. win
 - Peter 1
 - two Rooks vs pawns
 https://www.yacpdb.org/#286661
 
-## Q12. win
+### Q12. win
 - Peter 3
 
-## Q13. win
+### Q13. win
 - Peter 4
 - e7 is nice, but assumend the Black's reply, Qxg3. If Qxf1, no clear moves.
 
