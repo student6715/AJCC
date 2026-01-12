@@ -37,3 +37,27 @@ https://www.yacpdb.org/#638060
 ### Page 13, The final page.
 
 
+### Page 22, #5
+- Shaun 4
+- U12 Hard?
+- [ ] Detailed answers
+https://www.yacpdb.org/#77572
+https://lichess.org/study/4Vqywe71/wWcCBHwl#0
+
+
+### Page 23, #2 
+- Shaun 5
+- [ ] Detailed answers
+https://www.yacpdb.org/#32371
+https://lichess.org/study/4Vqywe71/t1te9DjL#0
+
+
+Comins Mansfield, La Settimana Enigmistica, 1935
+
+
+
+32806
+Morse, Christopher Jeremy
+The Observer, 1962
+
+https://www.yacpdb.org/#32806
