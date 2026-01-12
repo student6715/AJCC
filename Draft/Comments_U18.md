@@ -25,7 +25,6 @@ https://www.yacpdb.org/#305488
 ## win Peter 1
 - two Rooks vs pawns
 https://www.yacpdb.org/#286661
-https://lichess.org/study/4Vqywe71/W9s8SGVz#0
 
 
 
@@ -36,9 +35,14 @@ https://lichess.org/study/4Vqywe71/W9s8SGVz#0
 
 ### Page 8, Q9 win Peter 4
 
-### Page 9, Q13. #2
+### Q13. #2
 
-### Page 10, Q14 8 Queens Independent puzzle
 
-### Page 11, Q15 #6
-%% Intention: Sacrifice for Bishop's path, block Queen's path, and seting up mate. (Hard?)
+
+### Q14 8 Queens Independent puzzle
+- Famous problem, but I guess nobody remembers the exact positions
+- Easy to guess knight positions are a key, but it is hard to fill the rests.
+
+### Q15 #6
+- Sacrifice for Bishop's path
+- Block Queen's path
