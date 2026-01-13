@@ -101,12 +101,12 @@
 
 \textbf{\Large Answer:}\\
 \variation{1. Qa5!} covers all Black's moves.\\
-\variation{1... d2 2. Qf5\#}\\
-\variation{1... e2 2. Qe5\#}\\
-\variation{1... f2 2. Qd5\#}\\
-\variation{1... c5 2. Qa8\#}\\
+\variation{1... d2 2. Qf5#}\\
+\variation{1... e2 2. Qe5#}\\
+\variation{1... f2 2. Qd5#}\\
+\variation{1... c5 2. Qa8#}\\
 
-\vfill{\Large Source: Thomas Salthouse, Falkirk Herald, 1914 (YACDB: 22264)}
+\vfill{\Large Source: Thomas Salthouse, Falkirk Herald, 1914 (YACPDB: 22264)}
 
 
 \newpage
@@ -123,7 +123,7 @@
 
 \variation{\Large 1. Qa1} fails as \variation{\Large 1... Rxb5 2. Nb3+ Ra5 3. Rxa5#}(\variation{\Large 3. Qxa5#})\\
 
-\vfill\Large {Source: Cornelis Goldschmeding, problem (Zagreb), 1957 (YACDB: 8721)}
+\vfill\Large {Source: Cornelis Goldschmeding, problem (Zagreb), 1957 (YACPDB: 8721)}
 
 
 \newpage
@@ -132,46 +132,71 @@
 \newchessgame
 \chessboard[setfen=kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1]}\\
 \textbf{\Large Answer:}\\
-This is one of the most famous and hard to solve "Mate in 2" puzzles. The suprising first move is \variation{1. Ra6!}. If the b7 Pawn takes the Rook, \variation{1... bxa6 2. b7#}. If the bishop moves, \variation{1... Bh2 2. Rxa7#}. The Bishop moves to any legal squares (c7, d6, e5, f4, g3) are also correct answers.
+This is one of the most famous and hard to solve "Mate in 2" puzzles. The suprising first move is \variation{1. Ra6!}. If the b7 pawn takes the rook, \variation{1... bxa6 2. b7#}. If the bishop moves, \variation{1... Bh2 2. Rxa7#}. The bishop moves to any legal squares (c7, d6, e5, f4, g3) are also correct answers.
 
-\vfill{\Large Source: Paul Morphy, 1910 (YACDB: 625426)}
+\vfill{\Large Source: Paul Morphy, 1910 (YACPDB: 625426)}
 
 
 \newpage
-\textbf{\Large Q5. What is the missing piece? Whose turn is it? Which square does the missing piece belong on? Show the previous moves that reached this position.}\\
+\textbf{\Large Q5. Mate in 2. (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/8/8/4R3/6k1/8/4K2R w K - 0 1]}\\
+\textbf{\Large Answer:}\\
+\variation{1. O-O  Kh3}\\
+\variation{2. Rf3#}\\
+Please remember that, unless otherwise stated, castling and en passant should be considered in chess problems.
+
+\vfill{\Large Source: W. E. Candy, 1911 (YACPDB: 3889)}
+
+
+\newpage
+\textbf{\Large Q6. What is the missing piece? Whose turn is it? Which square does the missing piece belong on? Show the previous moves that reached this position.}\\
 {\setchessboard{boardfontsize=30pt, labelfontsize=14pt, showmover=false}
 \newchessgame
 \chessboard[setfen=8/8/8/1r1b4/B7/8/8/3k4 - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
+
+\vfill{\Large Source: Raymond M. Smullyan: The Chess Mysteries of the Arabian Knights}
+
+\newpage
+\textbf{\Large Q6. Answer:}\\
 Article 1.2 of "Laws of Chess" says "Leaving one's own king under attack, exposing one's own king to attack and also 'capturing' the opponent's king are not allowed."\\
 1. The King can not be captured, so the one missing piece is the White king.\\
-2. The Black king is in check by the White Bishop. You can not leave your own king under attack. Therefore, it is Black's move now.\\
-3. What was the previous White's move? It is not with the White's Bishop, so the White King moved from b3 to c3, which creates a discovered check to the Black King.\\
+2. The Black king is in check by the White bishop. You can not leave your own king under attack. Therefore, it is Black's move now.\\
+3. What was the previous White's move? It is not the White's bishop, so the White king moved from b3, which creates a discovered check to the Black king.\\
+4. The White king on b3 is under double attack. The only possible moves are a White pawn move from c2 to c4 to prevent the bishop's check, followed by an en passant of a Black pawn from b4 to c3. Then, the White king takes the Black pawn on c3.\\
 
 \textbf{\Large -1. Kb3-Kxc3+}\\
-\textbf{\Large -2. c2-c4 -Bd5+}\\
+\textbf{\Large -2. b4-c3 e.p.}\\
+\textbf{\Large -3. c2-c4}\\
+\textbf{\Large -4. *-Bd5+} (* means any legal positions)\\
+
+What happend is as below.
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=8/1b6/8/1r6/Bp6/1K6/2P5/3k4 b - - 0 1]}\\
 
 \variation{1...Bd5+}\\
 \variation{2. c4 bxc3+}\\
 \variation{3. Kxc3+}\\
-\vfill{\Large Source: Raymond M. Smullyan: The Chess Mysteries of the Arabian Knights}
 
 
 \newpage
-\textbf{\Large Q6. WHO moved last? WHICH piece was moved from WHERE to WHERE?}\\
+\textbf{\Large Q7. WHO moved last? WHICH piece was moved from WHERE to WHERE?}\\
 {\setchessboard{boardfontsize=30pt, labelfontsize=14pt, showmover=false}
 \newchessgame
 \chessboard[setfen=rnR1kbnr/pp2pppp/3p4/1B4N1/1R1BP3/3P2P1/PPP2PP1/3Q1KN1 b kq - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-The Black king in now in check, and is actually under double check from Rc8 and Bb5. It is illegal to move into check or leave your king in check. Therefore, the last move is made by White. Double check always come from a discovered check and a check by that move. The only possible move is a move of the Rook from c6 to c8.
+The Black king in now in check, and is actually under double check from Rc8 and Bb5. It is illegal to move into check or leave your king in check. Therefore, the last move is made by White. Double check always come from a discovered check and a check by that move. The only possible move is a move of the rook from c6 to c8.
 
 \vfill{\Large Source: Noam Elkies, U.S. Problem Bulletin, 1995}
 
 
 \newpage
-\textbf{\Large Q7. The position below occured after the Black's 4th move, from the starting position. Show the moves to reach this position.}\\
+\textbf{\Large Q8. The position below occured after the Black's 4th move, from the starting position. Show the moves to reach this position.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=rnbqkbnr/pp3ppp/2p1p3/8/4P3/8/PPPP1PPP/RNBQK1NR]}\\
@@ -187,7 +212,7 @@ This type of chess problem is called "Proof game", a type of retrograde analysis
 
 
 \newpage
-\textbf{\Large Q8. The position below occured after the Black's 4th move, from the starting position. Show the moves to reach this position.}\\
+\textbf{\Large Q9. The position below occured after the Black's 4th move, from the starting position. Show the moves to reach this position.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=rnbqkb1r/pppppp2/6p1/7p/3P4/8/PPP1PPPP/RN2KBNR w KQkq - 0 5]}\\
@@ -202,7 +227,7 @@ This type of chess problem is called "Proof game", a type of retrograde analysis
 
 
 \newpage
-\textbf{\Large Q9. Helpmate in 1. What is Black's move to allow White a  "Mate in 1"? Answer Black move's first, then White's checkmates.}\\
+\textbf{\Large Q10. Helpmate in 1. What is Black's move to allow White a  "Mate in 1"? Answer Black move's first, then White's checkmates.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=r3k1nr/pp2q2p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 0 1]}\\
@@ -214,18 +239,18 @@ This type of chess problem is called "Proof game", a type of retrograde analysis
 
 
 \newpage
-\textbf{\Large 10. Helpmate in 1. White's positions are all same as the previous question. Black's position is different in all questions}\\
-\textbf{\Large Q10A.}
+\textbf{\Large 11. Helpmate in 1. White's positions are all same as the previous question. Black's position is different in all questions}\\
+\textbf{\Large Q11A.}
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=r2qk2r/pp1n3p/4pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 0 1]}
 \textbf{\Large Answer:} \variation{1... Be7! 2. Qh5\#}\\
-\textbf{\Large Q10B.}
+\textbf{\Large Q11B.}
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=r2qk2r/pp2n2p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 1 2]}
 \textbf{\Large Answer:} \variation{1... Nd7! 2. Nd6\#}\\
-\textbf{\Large Q10C.}
+\textbf{\Large Q11C.}
 {\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
 \newchessgame
 \chessboard[setfen=r2qk1nr/pp5p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 2 3]}
@@ -234,7 +259,7 @@ This type of chess problem is called "Proof game", a type of retrograde analysis
 
 
 \newpage
-\textbf{\Large Q11. Helpmate in 3. (Black moves 1st and White checkmates with their 3rd move)}\\
+\textbf{\Large Q12. Helpmate in 3. (Black moves 1st and White checkmates with their 3rd move)}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=1K6/8/1N6/1k6/8/1B6/8/8 b - - 0 1]}\\
@@ -243,13 +268,13 @@ This type of chess problem is called "Proof game", a type of retrograde analysis
 \variation{1. Kc7 Ka7?}\\
 \variation{2. Nc8+ Ka8??}\\
 \variation{3. Bd5#}\\
-With Black's help, Knight and Bishop checkmates are quite easy!.
+With Black's help, knight and bishop checkmates are quite easy!.
 
-\vfill{\Large Source: Hilmar Ebert, Schach-Echo, 1977 (YACDB: 638060)}
+\vfill{\Large Source: Hilmar Ebert, Schach-Echo, 1977 (YACPDB: 638060)}
 
 
 \newpage
-\textbf{\Large Q12. Selfmate in 2. White forces Black to checkmate White's King with Black's 2nd move. (NB This must be a forced variation as Black will try and avoid checkmating White if possible!)}\\
+\textbf{\Large Q13. Selfmate in 2. White forces Black to checkmate White's King with Black's 2nd move. (NB This must be a forced variation as Black will try and avoid checkmating White if possible!)}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=K1k1r3/P7/7Q/8/8/8/8/8 w - - 0 1]}\\
@@ -258,11 +283,11 @@ With Black's help, Knight and Bishop checkmates are quite easy!.
 \variation{1. Qc6+ Kd8}\\
 \variation{2. Qc7+ Kxc7#}\\
 
-\vfill{\Large Source: Wilhelm Krämer, Die Schwalbe, 1928 (YACDB: 106430)}
+\vfill{\Large Source: Wilhelm Krämer, Die Schwalbe, 1928 (YACPDB: 106430)}
 
 
 \newpage
-\textbf{\Large Q13. Selfmate in 2. White forces Black to checkmate White in 2 moves.}\\
+\textbf{\Large Q14. Selfmate in 2. White forces Black to checkmate White in 2 moves.}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=KB3N2/P1P1p1P1/5P1k/4P2p/7P/8/6B1/7b w - - 0 1]}\\
@@ -273,11 +298,11 @@ With Black's help, Knight and Bishop checkmates are quite easy!.
 If \variation{1... e6}, another waiting move is \variation{2. g8=B}, then \variation{2... Bxg2#}.\\
 Do you understand why two underpromotions are necessary?\\
 
-\vfill{\Large Source: Wolfgang Pauly, The Theory of Pawn Promotion, 1912 (YACDB: 47304)}
+\vfill{\Large Source: Wolfgang Pauly, The Theory of Pawn Promotion, 1912 (YACPDB: 47304)}
 
 
 \newpage
-\textbf{\Large Q14. White to play. Who wins?}\\
+\textbf{\Large Q15. White to play. Who wins?}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard}\\
