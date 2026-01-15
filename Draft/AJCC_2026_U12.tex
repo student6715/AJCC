@@ -55,39 +55,17 @@
 
 
 \newpage
-\textbf{\Large Example Q1. Mate in two.}\\
-{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
-\newchessgame
-\chessboard[setfen=k7/7R/2K5/8/8/8/8/8 w - - 0 1]}
-\hspace{3mm} \Large{The open box shows White's move.}\\
-
-\textbf{\Large Answer:}\\
-
-\Large{1. Kb6  \hspace{5mm} Kb8 \hspace{8mm} \textleftarrow \hspace{2mm} Write the first White move, then the first Black move.}\\
-\Large{2. Rh8\# (1-0) \hspace{8mm} \textleftarrow \hspace{2mm} Write the second White move, which is a mate.}\\
-
-\textbf{\Large Example Q2. Black moves and draws.}\\
-{\setchessboard{inverse, boardfontsize=20pt,labelfontsize=12pt}
-\newchessgame
-\chessboard[setfen=3k4/8/3PK3/8/8/8/8/8 b - - 0 1]}
-\hspace{3mm} \Large{The closed box shows Black's move.}\\
-
-\textbf{\Large Answer:}\\
-
-\Large{1. ... \hspace{5mm} Ke8}\\
-\Large{2. d7+ \hspace{2mm} Kd8}\\
-\Large{3. Kd6 (draw)  \hspace{8mm} \textleftarrow \hspace{2mm} Write enough moves showing a clear draw position.}\\
-
-
-\newpage
 \textbf{\Large Q1. Mate in 2. (4 marks)}\\
 {\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
 \newchessgame
 \chessboard[setfen=8/8/8/8/1Q6/1K6/8/2Nk4 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Qa5 Kxc1}\\
-\variation{\Large 2. Qe1\#}\\
+
+\Large{
+\variation{1. Qa5 Kxc1}\\
+\variation{2. Qe1#}\\
+}
 
 \vfill{\Large Source: 9 Authors Deutsche Schachzeitung, 1968 (YACPDB: 82713)}
 
@@ -99,11 +77,14 @@
 \chessboard[setfen=2R5/8/3k4/3N2p1/4K1Q1/8/8/8 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1.Kf5 Kd7}\\
-\variation{\Large 2.Ke7#}\\
+
+\Large{
+\variation{1.Kf5 Kd7}\\
+\variation{2.Ke7#}\\
 \\
-\variation{\Large 1... Kxd5}\\
-\variation{\Large 2.Qd1#}\\
+\variation{1... Kxd5}\\
+\variation{2.Qd1#}\\
+}
 
 \vfill{\Large Source: Samuel Loyd, Buffalo Commercial Advertiser, 1879 (YACPDB: 32755)}
 
@@ -115,10 +96,13 @@
 \chessboard[setfen=rnbqkb1r/ppp2ppp/8/8/8/8/PPPPPPPP/RNBQKB1R w KQkq - 0 5]}\\
 
 \textbf{\Large Answer:}\\
+
+\Large{
 \variation{1. Nf3 e5}\\
 \variation{2. Nxe5 Ne7}\\
 \variation{3. Nxd7 Nec6}\\
 \variation{4. Nxb8 Nxb8}\\
+}
 
 \vfill{\Large Source: Ernest Clement Mortimer (version by Andrey Frolkin)
 Die Schwalbe, 1981}
@@ -131,10 +115,13 @@ Die Schwalbe, 1981}
 \chessboard[setfen=8/8/8/1p1Q4/1p6/2p5/p1k5/R3K3 w Q - 0 1]}
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Qe6! Kd3}\\
-\variation{\Large 2. O-O-O#}\\
 
-\vfill\Large{Source: William Whyatt}\\
+\Large{
+\variation{1. Qe6! Kd3}\\
+\variation{2. O-O-O#}\\
+}
+
+\vfill\Large{Source: William Whyatt, Chess World, 1957 (YACPDB: 28136)}\\
 
 
 \newpage
@@ -144,13 +131,16 @@ Die Schwalbe, 1981}
 \chessboard[setfen=2r1k3/8/8/2pK4/6R1/8/8/8 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Rg8+ Kd7}\\
-\variation{\Large 2. Rg7+ Ke8}\\
-\variation{\Large 3. Rh7! c4}\\
-\variation{\Large 4. Kd6! Rd8+}\\
-\variation{\Large 5. Ke6 Kf8}\\
-\variation{\Large 6. Kh8+ Kg7}\\
-\variation{\Large 7. Rxd8}\\
+
+\Large{
+\variation{1. Rg8+ Kd7}\\
+\variation{2. Rg7+ Ke8}\\
+\variation{3. Rh7! c4}\\
+\variation{4. Kd6! Rd8+}\\
+\variation{5. Ke6 Kf8}\\
+\variation{6. Kh8+ Kg7}\\
+\variation{7. Rxd8}\\
+}
 
 \vfill\Large{Source: Alexey Studenetsky, Shakhmaty v SSSR, 1939}
 
@@ -162,13 +152,16 @@ Die Schwalbe, 1981}
 \chessboard[setfen=8/8/8/K6p/8/8/kp5R/8 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Ka6!} (Counterintuitive, but the only move.)\\
-\variation{\Large 1... h4}
-\variation{\Large 2. Ka5 h3}
-\variation{\Large 3. Ka4 Ka1}
-\variation{\Large 4. Rxh3 b1=Q}
-\variation{\Large 5. Ra3+ Qa2}
-\variation{\Large 6. Rxa2+ Kxa2 (draw)}
+
+\Large{
+\variation{1. Ka6!} (Counterintuitive, but making a space for the rook)\\
+\variation{1... h4}\\
+\variation{2. Ka5 h3}\\
+\variation{3. Ka4 Ka1}\\
+\variation{4. Rxh3 b1=Q}\\
+\variation{5. Ra3+ Qa2}\\
+\variation{6. Rxa2+ Kxa2}\\
+}
 
 \vfill\Large{Source: David Gurgenidze, Tiny Endgames, 1999 (YACPDB: 276417)}
 
@@ -180,12 +173,15 @@ Die Schwalbe, 1981}
 \chessboard[setfen=8/5Q2/8/4k3/8/K6R/8/8 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Kb4 Kd6}\\
-\variation{\Large 2. Rh5 Kc6}\\
-\variation{\Large 3. Rh6#}\\
 
-If \variation{\Large 1... Kd4}, \variation{\Large 2. Qe8 Kd5 3. Rd3#}\\
-If \variation{\Large 1... Ke4}, \variation{\Large 2. Kc5 Ke5 3. Re3#}\\
+\Large{
+\variation{1. Kb4 Kd6}\\
+\variation{2. Rh5 Kc6}\\
+\variation{3. Rh6#}\\
+
+If \variation{1... Kd4}, \variation{2. Qe8 Kd5 3. Rd3#}.\\
+If \variation{1... Ke4}, \variation{2. Kc5 Ke5 3. Re3#}.\\
+}
 
 \vfill{\Large Source: Frederick Baird, 1905 (YACPDB: 105882)}
 
@@ -197,8 +193,11 @@ If \variation{\Large 1... Ke4}, \variation{\Large 2. Kc5 Ke5 3. Re3#}\\
 \chessboard[setfen=8/2pN4/8/8/6Q1/3pk3/4p3/4K3 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
+
+\Large{
 \variation{1. Ne5 c5}\\
 \variation{2. Qc4 d2#}\\
+}
 
 \vfill{\Large Source: Alexander Hildebrand, Springaren, 1998 (YACPDB: 90375)}
 
@@ -210,10 +209,13 @@ If \variation{\Large 1... Ke4}, \variation{\Large 2. Kc5 Ke5 3. Re3#}\\
 \chessboard[setfen=1K6/1N6/1n6/8/8/1k6/1P6/8 b - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
+
+\Large{
 \variation{0... Nd5}\\
 \variation{1. Ka7 Nb4}\\
 \variation{2. Kb6 Ka4}\\
 \variation{3. Nc5#}\\
+}
 
 \vfill{\Large Source: Henrik Eriksson, stella polaris, 1967 (YACPDB: 303520)}
 
@@ -225,14 +227,17 @@ If \variation{\Large 1... Ke4}, \variation{\Large 2. Kc5 Ke5 3. Re3#}\\
 \chessboard[setfen=4bR2/2PppN1n/3pBk1P/2PQpPpK/6PP/8/8/8 w - g6 0 2]}\\
 
 \textbf{\Large Answer:}\\
-The previous Black move has to be \variation{\Large 1... g2-g4}.\\
-\variation{\Large 1. fxg6!} (en passant)\\
-\variation{\Large 1... Ng5 2. hxg5#}\\
-\variation{\Large 1... Nxf8 2. g5#}\\
-\variation{\Large 1... Bxf7 2. Rxf7#}\\
-\variation{\Large 1... dxc5 2. Qxe5#}\\
-\variation{\Large 1... dxe6 2. Qf3#}\\
-\variation{\Large 1... e4 2. Qf5#}\\
+
+\Large{
+The previous Black move has to be a pawn moving, g2-g4, to checkmate the Black king in two moves.\\
+\variation{1. fxg6!} (en passant)\\
+\variation{1... Ng5 2. hxg5#}\\
+\variation{1... Nxf8 2. g5#}\\
+\variation{1... Bxf7 2. Rxf7#}\\
+\variation{1... dxc5 2. Qxe5#}\\
+\variation{1... dxe6 2. Qf3#}\\
+\variation{1... e4 2. Qf5#}\\
+}
 
 \vfill{\Large Source: Hristofor Savvich Animica, Mat (Beograd), 1974 (YACPDB: 233762)}
 
@@ -245,10 +250,13 @@ The previous Black move has to be \variation{\Large 1... g2-g4}.\\
 \chessboard[setfen=8/k7/1pK5/8/8/8/4R3/8 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Rc2}\\
-\variation{\Large 1... b5 2. Kc7 b4 3. Ra2#}\\
-\variation{\Large 1... Ka8 2. Kc7 b5 3. Ra2#}\\
-\variation{\Large 1... Kb8 2. Kxb6 Ka8 3. Rc8#}\\
+
+\Large{
+\variation{1. Rc2}\\
+\variation{1... b5 2. Kc7 b4 3. Ra2#}\\
+\variation{1... Ka8 2. Kc7 b5 3. Ra2#}\\
+\variation{1... Kb8 2. Kxb6 Ka8 3. Rc8#}\\
+}
 
 \vfill\Large{Source: Sigmund Lehner, Illustrirtes Familien-Journal, 1864 (YACPDB: 92993)}
 
@@ -260,13 +268,16 @@ The previous Black move has to be \variation{\Large 1... g2-g4}.\\
 \chessboard[setfen=8/8/p5r1/1p6/1P1R4/8/5K1p/7k w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Rd1+  Rg1}\\
-\variation{\Large 2. Rf1! Rxf1+}\\
-\variation{\Large 3. Kxf1 a5}\\
-\variation{\Large 4. bxa5 b4}\\
-\variation{\Large 5. a6 b3}\\
-\variation{\Large 6. a7 b2}\\
-\variation{\Large 7. a8=Q#}\\
+
+\Large{
+\variation{1. Rd1+  Rg1}\\
+\variation{2. Rf1! Rxf1+}\\
+\variation{3. Kxf1 a5}\\
+\variation{4. bxa5 b4}\\
+\variation{5. a6 b3}\\
+\variation{6. a7 b2}\\
+\variation{7. a8=Q#}\\
+}
 
 \vfill\Large{Source: Philippe Stamma, Essai sur le Jeu des Echecs, 1737 (modified) (YACPDB: 394020)}
 
@@ -278,9 +289,12 @@ The previous Black move has to be \variation{\Large 1... g2-g4}.\\
 \chessboard[setfen=2r3r1/3q3p/p6b/Pkp1B3/1p1p1P2/1P1P1Q2/2R3PP/2R3K1 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Bc7!}\\
-If \variation{\Large 1... Rxc7}, \variation{\Large 2. Qb7+! Rxb7 3. Rxc5#}.\\
-If \variation{\Large 1... Qxc7}, \variation{\Large 2. Rxc5+ Qxc5 3. Qxb7+ Qb6 4. Qxb6#}.\\
+
+\Large{
+\variation{1. Bc7!}\\
+If \variation{1... Rxc7}, \variation{2. Qb7+! Rxb7 3. Rxc5#}.\\
+If \variation{1... Qxc7}, \variation{2. Rxc5+ Qxc5 3. Qxb7+ Qb6 4. Qxb6#}.\\
+}
 
 \vfill\Large{Source: Tarrasch - Marotti 1914}
 
@@ -292,13 +306,16 @@ If \variation{\Large 1... Qxc7}, \variation{\Large 2. Rxc5+ Qxc5 3. Qxb7+ Qb6 4.
 \chessboard[setfen=2K3N1/B2p2N1/3p4/4k3/P4p2/1PR2P2/2P5/5B2 w - - 0 1]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1.Bg2! Kd5}\\
-\variation{\Large 2.Re3 fxe3}\\
-\variation{\Large 3.f4#}\\
+
+\Large{
+\variation{1.Bg2! Kd5}\\
+\variation{2.Re3 fxe3}\\
+\variation{3.f4#}\\
 \\
-\variation{\Large 1... d5 2.Kxd7 d4 3.Rc5#}\\
+\variation{1... d5 2.Kxd7 d4 3.Rc5#}\\
 \\
-\variation{\Large1.Kd7 d5 2.Rd3+ Ke5 3.Kc6 d5 4.Rd5#} (takes 4 moves)\\
+\variation{1.Kd7 d5 2.Rd3+ Ke5 3.Kc6 d5 4.Rd5#} (takes 4 moves)\\
+}
 
 \vfill\Large{Source: Thomas Denton Clarke, The Brisbane Courier 1918}
 
@@ -313,13 +330,16 @@ If \variation{\Large 1... Qxc7}, \variation{\Large 2. Rxc5+ Qxc5 3. Qxb7+ Qb6 4.
 \chessboard[setfen=8/8/8/8/8/8/8/8]}\\
 
 \textbf{\Large Instruction:}\\
+
 \Large{Use your 5 pawns instead of queens. Fill 5 squares in the left board with the letters "Q". When you make mistakes in the left board, put a large cross on the left board and use the right board.}\\
 
 
 \newpage
 \textbf{\Large Answer:}\\
 \\
+\Large{
 Some of representative solutions are below.
+}
 
 {\setchessboard{boardfontsize=12pt, labelfontsize=10pt, showmover=false}
 \chessboard[setfen=8/8/4Q3/1Q6/3Q4/5Q2/2Q5/8]}
@@ -328,12 +348,14 @@ Some of representative solutions are below.
 {\setchessboard{boardfontsize=12pt, labelfontsize=10pt, showmover=false}
 \chessboard[setfen=8/6Q1/8/4Q3/3Q4/2Q5/8/Q7]}\\
 
+\Large{
 The left solution shows the central queen surrounded by the other four queens in knight positions.\\
 Five queens lie on a main diagonal in the middle solution and on a sub-diagonal in the right solution, respectively.\\
 
 References:\\
-https://en.wikipedia.org/wiki/Queen\%27s_graph\\
+https://en.wikipedia.org/wiki/Queen\%27s\_graph\\
 https://www.brainbashers.com/queens.asp\\
+}
 
 
 \newpage
@@ -345,16 +367,19 @@ https://www.brainbashers.com/queens.asp\\
 \chessboard[setfen=2r1b3/p3Pppk/3Q3p/2r5/qp1N1P1B/6R1/PPP3PP/6K1 w - - 3 28]}\\
 
 \textbf{\Large Answer:}\\
-\variation{\Large 1. Rxg7+!! Kxg7}\\
-\variation{\Large 2. Qf6+ Kg8}\\
-\variation{\Large 3. Ne6!! fxe6}\\
-\variation{\Large 4. Qf8+ Kh7}\\
-\variation{\Large 5. Bf6 Rg5}\\
-\variation{\Large 6. fxg5 Kg6}\\
-\variation{\Large 7. g4 Qxc2}\\
-\variation{\Large 8. Qg7#}\\
 
-\variation{\Large 2... Kh7 3. Nf5 Rxf5 4. Qxf5+ Kh8 5. Bf6+ Kg8 6. Qg4+ Kh7 7. Qg7#}\\
+\Large{
+\variation{1. Rxg7+!! Kxg7}\\
+\variation{2. Qf6+ Kg8}\\
+\variation{3. Ne6!! fxe6}\\
+\variation{4. Qf8+ Kh7}\\
+\variation{5. Bf6 Rg5}\\
+\variation{6. fxg5 Kg6}\\
+\variation{7. g4 Qxc2}\\
+\variation{8. Qg7#}\\
+
+\variation{2... Kh7 3. Nf5 Rxf5 4. Qxf5+ Kh8 5. Bf6+ Kg8 6. Qg4+ Kh7 7. Qg7#}\\
+}
 
 \vfill\Large{Source: Daniel Naroditsky - Timur Gareyebv, U.S. Championship Online Qualifier, 2020}
 
