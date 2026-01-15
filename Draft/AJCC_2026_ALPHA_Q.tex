@@ -1,0 +1,395 @@
+\documentclass[14pt]{article}
+\usepackage[top=25truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{xskak}
+\usepackage{fancyhdr}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{fancy}
+
+\lhead{\Large ADMIN ONLY \hspace{3mm} Time submitted: \underline{\hspace{2.5cm}} Total score: \underline{\hspace{2.5cm}}/100}
+
+\begin{center}
+\vspace{20mm}
+\textbf{\Huge 2026 AUSTRALIAN JUNIOR}\\
+\vspace{6mm}
+\textbf{\Huge CHESS CHAMPIONSHIP}\\
+\vspace{6mm}
+\textbf{\Huge PROBLEM SOLVING SAMPLE}\\
+\vspace{6mm}
+\textbf{\Huge CANBERRA}\\
+\end{center}
+
+\vspace{8mm}\\
+\textbf{\LARGE NAME: \hspace{3mm} \underline{\hspace{8cm}}}\\
+\vspace{5mm}\\
+\textbf{\LARGE DATE OF BIRTH: \hspace{3mm} \underline{\hspace{5cm}}}\\
+\vspace{5mm}\\
+
+\textbf{\LARGE Please circle your age group:}\\
+\begin{itemize}
+  \item \textbf{\Large  U8 (born in 2019 or after)    U14 (born in 2013 or after)}
+  \item \textbf{\Large  U10 (born in 2017 or after)   U16 (born in 2011 or after)}
+  \item \textbf{\Large  U12 (born in 2015 or after)   U18 (born in 2009 or after)}
+\end{itemize}
+\vspace{5mm}\\
+
+\textbf{\LARGE Please circle: Boy or Girl}\\
+\vspace{5mm}\\
+
+\textbf{\LARGE Please read the following rules.}\\
+\begin{itemize}
+  \item {\Large You have up to 2 hours for the problem solving paper. You may not need all that time. You may leave after handing in your answers.}
+  \item {\Large The questions generally go from easy to hard, so it’s best to start from the beginning and go in order.}
+  \item {\Large You can use your chess board and pieces to help you.}
+  \item {\Large Each page show a question and the marks you can score. Please write your answers in the space under each diagram. Altogether, the test has 100 marks. Even if you don’t give perfect answers, you can still get some partial marks.}
+  \item {\Large For endgame puzzles, show enough moves to reach a position where you are clearly winning or drawing.}
+  \item {\Large You don’t have to finish them all, do your best and solve as many puzzles as you can.}
+\end{itemize}
+\vspace{3mm}\\
+\textbf{\LARGE Enjoy the problem solving.}
+\end{titlepage}
+
+
+\newpage
+\textbf{\Large Q1. Mate in 2. (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/7R/k1Kp4/3N4/r7/2Q5/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+The variation \variation{1. Qd3+ Rc4 2. Qxc4+ Ka5 3. Qb5#} takes 3 moves. The answer starts with a queen sacrifice, \variation{1. Qa5+ Rxa5 2. Nb4#}. If Black king takes the White queen, \variation{1... Kxa5 2.Ra7#}.\\
+
+\textbf{It is very important that you can only get full marks when you find the checkmate within the required moves (in this question, 2 moves, not 3 moves.)}\\
+}
+\fi
+
+\vfill{\Large Source: Jeff Coakley, Winning Chess Puzzles for Kids Vol. 2}
+
+
+\newpage
+\textbf{\Large Q2. Mate in 2 (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/2p5/4K3/8/3pkp2/3ppp2/8/4Q3 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+{\Large
+\variation{1. Qa5!} covers all Black's moves.\\
+\variation{1... d2 2. Qf5#}\\
+\variation{1... e2 2. Qe5#}\\
+\variation{1... f2 2. Qd5#}\\
+\variation{1... c5 2. Qa8#}}\\
+\fi
+
+\vfill{\Large Source: Thomas Salthouse, Falkirk Herald, 1914 (YACPDB: 22264)}
+
+
+\newpage
+\textbf{\Large Q3. Mate in 2. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/p1K5/krP2Q2/NRR5/8/8/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Qf1}\\
+\variation{1... Rxb5 2. Qxb5#}\\
+\variation{1... Rxc6+ 2. Rxc6#}\\
+\variation{1... Rb7+ 2. Rxb7#}\\
+
+\variation{ 1. Qa1} fails to \variation{ 1... Rxb5 2. Nb3+ Ra5 3. Rxa5#}(\variation{3. Qxa5#})\\
+}
+\fi
+
+\vfill{\Large Source: Cornelis Goldschmeding, problem (Zagreb), 1957 (YACPDB: 8721)}
+
+
+\newpage
+\textbf{\Large Q4. Mate in 2. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+This is one of the most famous and hard to solve "Mate in 2" puzzles. The suprising first move is \variation{1. Ra6!}. If the b7 pawn takes the rook, \variation{1... bxa6 2. b7#}. If the bishop moves, \variation{1... Bh2 2. Rxa7#}. The bishop moves to any legal squares (c7, d6, e5, f4, g3) are also correct answers.\\
+}
+\fi
+
+\vfill{\Large Source: Paul Morphy, 1910 (YACPDB: 625426)}
+
+
+\newpage
+\textbf{\Large Q5. Mate in 2. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/8/8/4R3/6k1/8/4K2R w K - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. O-O  Kh3}\\
+\variation{2. Rf3#}\\
+
+\textbf{Please remember that, unless otherwise stated, castling and en passant should be considered in chess problems.}\\
+}
+\fi
+
+\vfill{\Large Source: W. E. Candy, 1911 (YACPDB: 3889)}
+
+
+\newpage
+\textbf{\Large Q6. What is the missing piece? Whose turn is it? Which square does the missing piece belong on? Show the previous moves that reached this position. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt, labelfontsize=14pt, showmover=false}
+\newchessgame
+\chessboard[setfen=8/8/8/1r1b4/B7/8/8/3k4 - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\vfill{\Large Source: Raymond M. Smullyan: The Chess Mysteries of the Arabian Knights}
+
+\iffalse
+\newpage
+\textbf{\Large Q6. Answer:}\\
+
+\Large{
+Article 1.2 of "Laws of Chess" says "Leaving one's own king under attack, exposing one's own king to attack and also 'capturing' the opponent's king are not allowed."\\
+1. The King can not be captured, so the one missing piece is the White king.\\
+2. The Black king is in check by the White bishop. You can not leave your own king under attack. Therefore, it is Black's move now.\\
+3. What was the previous White's move? It is not the White's bishop, so the White king moved from b3, which creates a discovered check to the Black king.\\
+4. The White king on b3 is under double attack. The only possible sequence is for White to play c2–c4 to block the bishop’s check, then Black plays bxc3 en passant. White then captures the Black pawn on c3 with the king.\\
+
+\textbf{\Large -1. Kb3-Kxc3+}\\
+\textbf{\Large -2. bxc3 e.p.}\\
+\textbf{\Large -3. c2-c4}\\
+\textbf{\Large -4. *-Bd5+} (* means any legal positions)\\
+
+Below is the initial position and forward moves.\\
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=8/1b6/8/1r6/Bp6/1K6/2P5/3k4 b - - 0 1]}\\
+\variation{1... Bd5+}\\
+\variation{2. c4 bxc3+}\\
+\variation{3. Kxc3+}\\
+}
+\fi
+
+
+\newpage
+\textbf{\Large Q7. WHO moved last? WHICH piece was moved from WHERE to WHERE? (6 marks)}\\
+{\setchessboard{boardfontsize=30pt, labelfontsize=14pt, showmover=false}
+\newchessgame
+\chessboard[setfen=rnR1kbnr/pp2pppp/3p4/1B4N1/1R1BP3/3P2P1/PPP2PP1/3Q1KN1 b kq - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+The Black king in now in check, and is actually under double check from Rc8 and Bb5. It is illegal to move into check or leave your king in check. Therefore, the last move is made by White. Double check always come from a discovered check and a check by that move. The only possible move is a move of the rook from c6 to c8.\\
+}
+\fi
+
+\vfill{\Large Source: Noam Elkies, U.S. Problem Bulletin, 1995}
+
+
+\newpage
+\textbf{\Large Q8. The position below occured after the Black's 4th move, from the starting position. Show the moves to reach this position. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=rnbqkbnr/pp3ppp/2p1p3/8/4P3/8/PPPP1PPP/RNBQK1NR]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+This type of chess problem is called "Proof game", a type of retrograde analysis. This position is easily reached by \variation{1. e4 e6 2. Bb5 c6 3. Bxc6 dxc6}. However, this problem is asking for the same position after Black's 4th move. There should be illogical, but legal White and Black moves. The answer is\\
+\variation{1. e4 e6}.\\
+\variation{2. Bb5 Ke7}.\\
+\variation{3. Bxd7 c6}.\\
+\variation{4. Be8 Kxe8}.\\
+}
+\fi
+
+\vfill{\Large Source: Tibor Orbán, Die Schwalbe, 1976}
+
+
+\newpage
+\textbf{\Large Q9. The position below occured after the Black's 4th move, from the starting position. Show the moves to reach this position. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=rnbqkb1r/pppppp2/6p1/7p/3P4/8/PPP1PPPP/RN2KBNR w KQkq - 0 5]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. d4 Nh6}\\
+\variation{2. Bxh6 gxh6}\\
+\variation{3. Qd3 h5}\\
+\variation{4. Qg6 hxg6}\\
+}
+\fi
+
+\vfill{\Large Source: L. Mano, source unknown, 1999}
+
+
+\newpage
+\textbf{\Large Q10. Helpmate in 1. What is Black's move to allow White a  "Mate in 1"? Answer Black move's first, then White's checkmates. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=r3k1nr/pp2q2p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1... Kf7!}\\
+\variation{2. Qh5#}\\
+}
+\fi
+
+\vfill{\Large Source: Jeff Coakley, Winning Chess Puzzles for Kids Vol. 2}
+
+
+\newpage
+\textbf{\Large 11. Helpmate in 1. Black's positions are all different, but White's positions are all same as the previous question. (2 marks each)}\\
+\textbf{\Large Q11A.}
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=r2qk2r/pp1n3p/4pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 0 1]}
+\textbf{\Large Answer:} \iffalse\variation{1... Be7! 2. Qh5#}\fi\\
+\textbf{\Large Q11B.}
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=r2qk2r/pp2n2p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 1 2]}
+\textbf{\Large Answer:} \iffalse\variation{1... Nd7! 2. Nd6#}\fi\\
+\textbf{\Large Q11C.}
+{\setchessboard{boardfontsize=20pt,labelfontsize=12pt}
+\newchessgame
+\chessboard[setfen=r2qk1nr/pp5p/1n2pb1B/1N1b1p2/8/P5N1/1P2QPPP/3RR1K1 b kq - 2 3]}
+\textbf{\Large Answer:} \iffalse\variation{1... Kd7! 2. Qxe6#}\fi\\
+\vfill{\Large Source: Jeff Coakley, Winning Chess Puzzles for Kids Vol. 2}
+
+
+\newpage
+\textbf{\Large Q12. Helpmate in 3. Black moves 1st and White checkmates with their 3rd move. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=1K6/8/1N6/1k6/8/1B6/8/8 b - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{0... Ka6?}\\
+\variation{1. Kc7 Ka7?}\\
+\variation{2. Nc8+ Ka8??}\\
+\variation{3. Bd5#}\\
+
+With Black's help, knight and bishop checkmates are quite easy!.\\
+}
+\fi
+
+\vfill{\Large Source: Hilmar Ebert, Schach-Echo, 1977 (YACPDB: 638060)}
+
+
+\newpage
+\textbf{\Large Q13. Selfmate in 2. White forces Black to checkmate White's King with Black's 2nd move. (NB This must be a forced variation as Black will try and avoid checkmating White if possible!) (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=K1k1r3/P7/7Q/8/8/8/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Qc6+ Kd8}\\
+\variation{2. Qc7+ Kxc7#}\\
+}
+\fi
+
+\vfill{\Large Source: Wilhelm Krämer, Die Schwalbe, 1928 (YACPDB: 106430)}
+
+
+\newpage
+\textbf{\Large Q14. Selfmate in 2. White forces Black to checkmate White in 2 moves. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=KB3N2/P1P1p1P1/5P1k/4P2p/7P/8/6B1/7b w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. c8=N exf6}\\
+\variation{2. exf6 Bxg2#}\\
+If \variation{1... e6}, another waiting move is \variation{2. g8=B}, then \variation{2... Bxg2#}.\\
+
+Do you understand why two underpromotions are necessary?\\
+}
+\fi
+
+\vfill{\Large Source: Wolfgang Pauly, The Theory of Pawn Promotion, 1912 (YACPDB: 47304)}
+
+
+\newpage
+\textbf{\Large Q15. White play and win (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/1k1P4/8/8/8/1r6/R3K3 w Q - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+Castling first does not work.\\
+\variation{1. O-O-O Ra2}\\
+\variation{2. d7 Ra1+}\\
+\variation{3. Kc2 Rxd1}\\
+\variation{4. Kxd1 Kc7}\\
+\\
+The answer is as below.\\
+\variation{1. d7 Kc7}\\
+\variation{2. d8=Q+ Kxd8}\\
+\variation{3. O-O-O+ Ke7}\\
+\variation{4. Kxb2} (White is winnig with a rook.)\\
+
+For this type of problem or study, you do not have to show all the moves up to checkmate. However, please write down enough moves to show a clear winning or drawing position.\\
+}
+\fi
+
+\vfill{\Large Source: Alexey Selezniev, Tidskrift for Schack, 1921 (YACPDB: 384775)}
+
+
+\newpage
+\textbf{\Large Q16. White to play. Who wins?}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+This is the world's hardest chess problem. We hope you will be one step closer to the answer during the 2026 Australian Junior Championships.\\
+\\
+Happy Problem Solving!\\
+}
+\fi
+
+\vfill{\Large Source: Composer unknown, date unknown}
+
+\end{document}
