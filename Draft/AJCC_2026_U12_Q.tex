@@ -1,0 +1,417 @@
+\documentclass[14pt]{article}
+\usepackage[top=25truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{xskak}
+\usepackage{fancyhdr}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{fancy}
+
+\lhead{\Large ADMIN ONLY \hspace{3mm} Time submitted: \underline{\hspace{2.5cm}} Total score: \underline{\hspace{2.5cm}}/100}
+
+\begin{center}
+\vspace{20mm}
+\textbf{\Huge 2026 AUSTRALIAN JUNIOR}\\
+\vspace{6mm}
+\textbf{\Huge CHESS CHAMPIONSHIP}\\
+\vspace{6mm}
+\textbf{\Huge PROBLEM SOLVING U12}\\
+\vspace{6mm}
+\textbf{\Huge CANBERRA}\\
+\end{center}
+
+\vspace{8mm}\\
+\textbf{\LARGE NAME: \hspace{3mm} \underline{\hspace{8cm}}}\\
+\vspace{5mm}\\
+\textbf{\LARGE DATE OF BIRTH: \hspace{3mm} \underline{\hspace{5cm}}}\\
+\vspace{5mm}\\
+
+\textbf{\LARGE Please circle your age group:}\\
+\begin{itemize}
+  \item \textbf{\Large  U8 (2 Jan 2018 or after)}
+  \item \textbf{\Large  U10 (2 Jan 2016 or after)}
+  \item \textbf{\Large  U12 (2 Jan 2014 or after)}
+\end{itemize}
+\vspace{5mm}\\
+
+\textbf{\LARGE Please circle: Boy or Girl}\\
+\vspace{5mm}\\
+
+\textbf{\LARGE Please read the following rules.}\\
+\begin{itemize}
+  \item {\Large You have up to 2 hours for the problem solving paper. You may not need all that time. You may leave after handing in your answers.}
+  \item {\Large The questions generally go from easy to hard, so it’s best to start from the beginning and go in order.}
+  \item {\Large You can use your chess board and pieces to help you.}
+  \item {\Large Each page show a question and the marks you can score. Please write your answers in the space under each diagram. Altogether, the test has 100 marks. Even if you don’t give perfect answers, you can still get some partial marks.}
+  \item {\Large For endgame puzzles, show enough moves to reach a position where you are clearly winning or drawing.}
+  \item {\Large You don’t have to finish them all, do your best and solve as many puzzles as you can.}
+\end{itemize}
+\vspace{3mm}\\
+
+\textbf{\LARGE Enjoy the problem solving.}
+\end{titlepage}
+
+
+\newpage
+\textbf{\Large Q1. Mate in 2. (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/8/8/1Q6/1K6/8/2Nk4 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Qa5 Kxc1}\\
+\variation{2. Qe1#}\\
+}
+\fi
+
+\vfill{\Large Source: 9 Authors Deutsche Schachzeitung, 1968 (YACPDB: 82713)}
+
+
+\newpage
+\textbf{\Large Q2. Mate in 2. (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2R5/8/3k4/3N2p1/4K1Q1/8/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1.Kf5 Kd7}\\
+\variation{2.Ke7#}\\
+\\
+\variation{1... Kxd5}\\
+\variation{2.Qd1#}\\
+}
+\fi
+
+\vfill{\Large Source: Samuel Loyd, Buffalo Commercial Advertiser, 1879 (YACPDB: 32755)}
+
+
+\newpage
+\textbf{\Large Q3. The position below occured at the 4th Black's move from the starting position. List the moves that resulted in this position. (4 marks)} \\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=rnbqkb1r/ppp2ppp/8/8/8/8/PPPPPPPP/RNBQKB1R w KQkq - 0 5]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Nf3 e5}\\
+\variation{2. Nxe5 Ne7}\\
+\variation{3. Nxd7 Nec6}\\
+\variation{4. Nxb8 Nxb8}\\
+}
+\fi
+
+\vfill{\Large Source: Ernest Clement Mortimer (version by Andrey Frolkin)
+Die Schwalbe, 1981}
+
+
+\newpage
+\textbf{\Large Q4. Mate in 2. (4 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/8/1p1Q4/1p6/2p5/p1k5/R3K3 w Q - 0 1]}
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Qe6! Kd3}\\
+\variation{2. O-O-O#}\\
+}
+\fi
+
+\vfill\Large{Source: William Whyatt, Chess World, 1957 (YACPDB: 28136)}\\
+
+
+\newpage
+\textbf{\Large Q5. White to play and win. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2r1k3/8/8/2pK4/6R1/8/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Rg8+ Kd7}\\
+\variation{2. Rg7+ Ke8}\\
+\variation{3. Rh7! c4}\\
+\variation{4. Kd6! Rd8+}\\
+\variation{5. Ke6 Kf8}\\
+\variation{6. Kh8+ Kg7}\\
+\variation{7. Rxd8}\\
+}
+\fi
+
+\vfill\Large{Source: Alexey Studenetsky, Shakhmaty v SSSR, 1939}
+
+
+\newpage
+\textbf{\Large Q6. White to play and draw. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/8/K6p/8/8/kp5R/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Ka6!} (Counterintuitive. The move makes a space for the rook.)\\
+\variation{1... h4}\\
+\variation{2. Ka5 h3}\\
+\variation{3. Ka4 Ka1}\\
+\variation{4. Rxh3 b1=Q}\\
+\variation{5. Ra3+ Qa2}\\
+\variation{6. Rxa2+ Kxa2}\\
+}
+\fi
+
+\vfill\Large{Source: David Gurgenidze, Tiny Endgames, 1999 (YACPDB: 276417)}
+
+
+\newpage
+\textbf{\Large Q7. Mate in 3. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/5Q2/8/4k3/8/K6R/8/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Kb4 Kd6}\\
+\variation{2. Rh5 Kc6}\\
+\variation{3. Rh6#}\\
+
+If \variation{1... Kd4}, \variation{2. Qe8 Kd5 3. Rd3#}.\\
+If \variation{1... Ke4}, \variation{2. Kc5 Ke5 3. Re3#}.\\
+}
+\fi
+
+\vfill{\Large Source: Frederick Baird, 1905 (YACPDB: 105882)}
+
+
+\newpage
+\textbf{\Large Q8. Selfmate in 2. White forces Black to mate the White King with Black's 2nd move. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/2pN4/8/8/6Q1/3pk3/4p3/4K3 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Ne5 c5}\\
+\variation{2. Qc4 d2#}\\
+}
+\fi
+
+\vfill{\Large Source: Alexander Hildebrand, Springaren, 1998 (YACPDB: 90375)}
+
+
+\newpage
+\textbf{\Large Q9. Helpmate in 3. Black to moves first and helps White checkmate in 3 moves. (6 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=1K6/1N6/1n6/8/8/1k6/1P6/8 b - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{0... Nd5}\\
+\variation{1. Ka7 Nb4}\\
+\variation{2. Kb6 Ka4}\\
+\variation{3. Nc5#}\\
+}
+\fi
+
+\vfill{\Large Source: Henrik Eriksson, stella polaris, 1967 (YACPDB: 303520)}
+
+
+\newpage
+\textbf{\Large Q10. Mate in 2. (8 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=4bR2/2PppN1n/3pBk1P/2PQpPpK/6PP/8/8/8 w - g6 0 2]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+The previous Black move has to be a pawn moving, g2-g4, to checkmate the Black king in two moves.\\
+\variation{1. fxg6!} (en passant)\\
+\variation{1... Ng5 2. hxg5#}\\
+\variation{1... Nxf8 2. g5#}\\
+\variation{1... Bxf7 2. Rxf7#}\\
+\variation{1... dxc5 2. Qxe5#}\\
+\variation{1... dxe6 2. Qf3#}\\
+\variation{1... e4 2. Qf5#}\\
+}
+\fi
+
+\vfill{\Large Source: Hristofor Savvich Animica, Mat (Beograd), 1974 (YACPDB: 233762)}
+
+
+
+\newpage
+\textbf{\Large Q11. Mate in 3. (8 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/k7/1pK5/8/8/8/4R3/8 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Rc2}\\
+\variation{1... b5 2. Kc7 b4 3. Ra2#}\\
+\variation{1... Ka8 2. Kc7 b5 3. Ra2#}\\
+\variation{1... Kb8 2. Kxb6 Ka8 3. Rc8#}\\
+}
+\fi
+
+\vfill\Large{Source: Sigmund Lehner, Illustrirtes Familien-Journal, 1864 (YACPDB: 92993)}
+
+
+\newpage
+\textbf{\Large Q12. White to play and win. (8 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=8/8/p5r1/1p6/1P1R4/8/5K1p/7k w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Rd1+  Rg1}\\
+\variation{2. Rf1! Rxf1+}\\
+\variation{3. Kxf1 a5}\\
+\variation{4. bxa5 b4}\\
+\variation{5. a6 b3}\\
+\variation{6. a7 b2}\\
+\variation{7. a8=Q#}\\
+}
+\fi
+
+\vfill\Large{Source: Philippe Stamma, Essai sur le Jeu des Echecs, 1737 (modified) (YACPDB: 394020)}
+
+
+\newpage
+\textbf{\Large Q13. White to play and win. (8 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2r3r1/3q3p/p6b/Pkp1B3/1p1p1P2/1P1P1Q2/2R3PP/2R3K1 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Bc7!}\\
+If \variation{1... Rxc7}, \variation{2. Qb7+! Rxb7 3. Rxc5#}.\\
+If \variation{1... Qxc7}, \variation{2. Rxc5+ Qxc5 3. Qxb7+ Qb6 4. Qxb6#}.\\
+}
+\fi
+
+\vfill\Large{Source: Tarrasch - Marotti 1914}
+
+
+\newpage
+\textbf{\Large Q14. Mate in 3. (8 marks)}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2K3N1/B2p2N1/3p4/4k3/P4p2/1PR2P2/2P5/5B2 w - - 0 1]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1.Bg2! Kd5}\\
+\variation{2.Re3 fxe3}\\
+\variation{3.f4#}\\
+\\
+\variation{1... d5 2.Kxd7 d4 3.Rc5#}\\
+\\
+\variation{1.Kd7 d5 2.Rd3+ Ke5 3.Kc6 d5 4.Rd5#} (takes 4 moves)\\
+}
+\fi
+
+\vfill\Large{Source: Thomas Denton Clarke, The Brisbane Courier 1918}
+
+
+\newpage
+\textbf{\Large Q15. The 5 Queens Domination puzzle. Place 5 queens on the board so that every square is attacked by at least one of the 5 queens. (6 marks)}\\
+
+\Large{There are 7,624,512 ($_{64}C_{5}$) possible ways to place 5 queens on the board. Among these patern, only 4,860 patterns are valid solutions. In one episode of the "Take Take Take" YouTube channel, Magnus Carlsen took about 5 minutes to complete this task. Can you beat him?}\\
+{\setchessboard{boardfontsize=25pt, labelfontsize=14pt, showmover=false}
+\chessboard[setfen=8/8/8/8/8/8/8/8]}
+{\setchessboard{boardfontsize=25pt, labelfontsize=14t, showmover=false}
+\chessboard[setfen=8/8/8/8/8/8/8/8]}\\
+
+\textbf{\Large Instruction:}\\
+
+\Large{Use your 5 pawns instead of queens. Fill 5 squares on the left board with the letter "Q". If you make a mistake in the left board, put a large cross over the left board and use the right board.}\\
+
+\iffalse
+\newpage
+\textbf{\Large Answer:}\\
+\\
+\Large{
+Some of representative solutions are shown below.
+}
+
+{\setchessboard{boardfontsize=12pt, labelfontsize=10pt, showmover=false}
+\chessboard[setfen=8/8/4Q3/1Q6/3Q4/5Q2/2Q5/8]}
+{\setchessboard{boardfontsize=12pt, labelfontsize=10t, showmover=false}
+\chessboard[setfen=6Q1/8/4Q3/3Q4/2Q5/8/Q7/8]}
+{\setchessboard{boardfontsize=12pt, labelfontsize=10pt, showmover=false}
+\chessboard[setfen=8/6Q1/8/4Q3/3Q4/2Q5/8/Q7]}\\
+
+\Large{
+The left solution shows the central queen surrounded by the other four queens in knight positions.\\
+Five queens lie on a main diagonal in the middle solution and on a sub-diagonal in the right solution.\\
+
+References:\\
+https://en.wikipedia.org/wiki/Queen\%27s\_graph\\
+https://www.brainbashers.com/queens.asp\\
+}
+\fi
+
+\newpage
+\textbf{\Large Q16. Mate in 8. (8 marks)}\\
+
+\Large{In memory of Daniel Naroditsky (1995-2025). He is an American grand master and a famous streamer as "Danya". He tragically passed away in October 2025 at the age of 29.}\\
+{\setchessboard{boardfontsize=30pt,labelfontsize=14pt}
+\newchessgame
+\chessboard[setfen=2r1b3/p3Pppk/3Q3p/2r5/qp1N1P1B/6R1/PPP3PP/6K1 w - - 3 28]}\\
+
+\textbf{\Large Answer:}\\
+
+\iffalse
+\Large{
+\variation{1. Rxg7+!! Kxg7}\\
+\variation{2. Qf6+ Kg8}\\
+\variation{3. Ne6!! fxe6}\\
+\variation{4. Qf8+ Kh7}\\
+\variation{5. Bf6 Rg5}\\
+\variation{6. fxg5 Kg6}\\
+\variation{7. g4 Qxc2}\\
+\variation{8. Qg7#}\\
+
+\variation{2... Kh7 3. Nf5 Rxf5 4. Qxf5+ Kh8 5. Bf6+ Kg8 6. Qg4+ Kh7 7. Qg7#}\\
+}
+\fi
+
+\vfill\Large{Source: Daniel Naroditsky - Timur Gareyebv, U.S. Championship Online Qualifier, 2020}
+
+
+\end{document}
